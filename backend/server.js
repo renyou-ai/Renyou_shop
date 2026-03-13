@@ -1,10 +1,24 @@
-const express = require('express');
-const app = express();
+const express = require("express")
+const cors = require("cors")
+const mongoose = require("mongoose")
 
-app.use(express.json());
+const app = express()
 
-app.get('/', (req, res) => {
-  res.send('API running');
-});
+app.use(cors())
+app.use(express.json())
 
-app.listen(5000, () => console.log('Server running on port 5000'));
+mongoose.connect("mongodb://127.0.0.1:27017/renyou")
+.then(() => console.log("MongoDB connected"))
+.catch(err => console.log(err))
+
+const productRoutes = require("./src/routes/productRoutes")
+
+app.use("/api/products", productRoutes)
+
+app.get("/api", (req,res)=>{
+  res.json({message:"API running"})
+})
+
+app.listen(5000, ()=>{
+  console.log("Server running on port 5000")
+})
