@@ -75,7 +75,6 @@ function ProductDetails() {
     <div className="bg-[#F7F5FF] min-h-screen flex flex-col">
 
       <Navbar />
-      <SearchHeader />
 
       <div className="max-w-7xl mx-auto px-6 py-12">
 

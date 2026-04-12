@@ -1,8 +1,21 @@
 function FilterSidebar({ filters, setFilters }) {
 
+  // 🔥 reset filters
+  const resetFilters = () => {
+    setFilters({});
+  };
+
   return (
 
     <div className="w-64 space-y-10 text-[#0B1A2B]">
+
+      {/* RESET BUTTON */}
+      <button
+        onClick={resetFilters}
+        className="text-sm text-red-500 underline"
+      >
+        Clear Filters
+      </button>
 
       {/* CATEGORY */}
 
@@ -34,7 +47,6 @@ function FilterSidebar({ filters, setFilters }) {
 
       </div>
 
-
       {/* BRAND */}
 
       <div>
@@ -65,7 +77,6 @@ function FilterSidebar({ filters, setFilters }) {
 
       </div>
 
-
       {/* PRICE RANGE */}
 
       <div>
@@ -73,6 +84,16 @@ function FilterSidebar({ filters, setFilters }) {
         <h3 className="font-semibold mb-4">
           Price Range
         </h3>
+
+        {/* 🔥 MIN PRICE AJOUT */}
+        <input
+          type="number"
+          placeholder="Min price"
+          className="w-full mb-2 border p-2 rounded"
+          onChange={(e) =>
+            setFilters({ ...filters, minPrice: e.target.value })
+          }
+        />
 
         <input
           type="range"
@@ -85,14 +106,11 @@ function FilterSidebar({ filters, setFilters }) {
         />
 
         <div className="flex justify-between text-sm text-gray-500 mt-2">
-
           <span>$0</span>
           <span>$100</span>
-
         </div>
 
       </div>
-
 
       {/* RATING */}
 

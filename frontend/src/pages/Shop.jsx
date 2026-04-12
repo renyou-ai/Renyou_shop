@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 
 import Navbar from "../components/Navbar";
-import SearchHeader from "../components/SearchHeader";
 import Breadcrumb from "../components/Breadcrumb";
 import FilterSidebar from "../components/FilterSidebar";
-import ProductGrid from "../components/ProductGrid";
+import ProductGrid from "../components/ProductGrid"; // ✅ FIX ICI
 import Pagination from "../components/Pagination";
 import Footer from "../components/Footer";
 
@@ -19,7 +18,16 @@ function Shop() {
   /* NEW: filters state */
   const [filters, setFilters] = useState({});
 
+  // 🔥 AJOUT
+  const [search, setSearch] = useState("");
+  const [sort, setSort] = useState("");
+
   const productsPerPage = 9;
+
+  // 🔥 AJOUT : reset page quand filtres changent
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filters, search, sort]);
 
   useEffect(() => {
 
@@ -30,7 +38,11 @@ function Shop() {
         setLoading(true);
 
         /* NEW: pass filters to backend */
-        const data = await getProducts(filters);
+        const data = await getProducts({
+          ...filters,
+          search, // 🔥 AJOUT
+          sort,   // 🔥 AJOUT
+        });
 
         setProducts(data);
 
@@ -49,7 +61,7 @@ function Shop() {
     fetchProducts();
 
   /* NEW: refetch when filters change */
-  }, [filters]);
+  }, [filters, search, sort]);
 
   /* Pagination */
 
@@ -68,11 +80,8 @@ function Shop() {
 
     <div className="bg-white min-h-screen flex flex-col">
 
-      {/* Header navigation */}
-      <Navbar />
-
-      {/* Search header */}
-      <SearchHeader />
+      {/* ✅ NAVBAR AJOUTÉE ICI */}
+      <Navbar setSearch={setSearch} /> {/* 🔥 AJOUT */}
 
       {/* Main content */}
       <div className="max-w-7xl mx-auto w-full px-6 py-10 flex flex-col lg:flex-row gap-12 flex-1">
@@ -97,18 +106,26 @@ function Shop() {
               Vitamins & Supplements
             </h1>
 
-            <select className="border border-gray-300 rounded-lg px-4 py-2 text-sm bg-white">
-
-              <option>
+            {/* 🔥 CONNECT SORT */}
+            <select
+              value={sort}
+              onChange={(e) => setSort(e.target.value)}
+              className="border border-gray-300 rounded-lg px-4 py-2 text-sm bg-white"
+            >
+              <option value="">
                 Most Popular
               </option>
 
-              <option>
+              <option value="price_asc">
                 Price: Low to High
               </option>
 
-              <option>
+              <option value="price_desc">
                 Price: High to Low
+              </option>
+
+              <option value="newest">
+                Newest
               </option>
 
             </select>
@@ -123,6 +140,13 @@ function Shop() {
 
           </p>
 
+          {/* 🔥 AJOUT : aucun produit */}
+          {!loading && products.length === 0 && (
+            <div className="text-center py-20 text-gray-500">
+              No products found
+            </div>
+          )}
+
           {/* Product grid */}
           {loading ? (
 
@@ -135,11 +159,14 @@ function Shop() {
             <>
               <ProductGrid products={currentProducts} />
 
-              <Pagination
-                currentPage={currentPage}
-                totalPages={totalPages}
-                setCurrentPage={setCurrentPage}
-              />
+              {/* 🔥 AJOUT : pagination seulement si utile */}
+              {totalPages > 1 && (
+                <Pagination
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  setCurrentPage={setCurrentPage}
+                />
+              )}
             </>
 
           )}

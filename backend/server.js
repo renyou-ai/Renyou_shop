@@ -1,24 +1,40 @@
-const express = require("express")
-const cors = require("cors")
-const mongoose = require("mongoose")
+const express = require("express");
+const cors = require("cors");
+const mongoose = require("mongoose");
 
-const app = express()
+const app = express();
 
-app.use(cors())
-app.use(express.json())
+/* Middlewares */
 
-mongoose.connect("mongodb://127.0.0.1:27017/renyou")
-.then(() => console.log("MongoDB connected"))
-.catch(err => console.log(err))
+app.use(cors());
+app.use(express.json());
 
-const productRoutes = require("./src/routes/productRoutes")
+/* Mongo connection */
 
-app.use("/api/products", productRoutes)
+const MONGO_URI =
+  process.env.MONGO_URI || "mongodb://127.0.0.1:27017/renyou";
 
-app.get("/api", (req,res)=>{
-  res.json({message:"API running"})
-})
+mongoose
+  .connect(MONGO_URI)
+  .then(() => console.log("MongoDB connected"))
+  .catch((err) => console.log(err));
 
-app.listen(5000, ()=>{
-  console.log("Server running on port 5000")
-})
+/* Routes */
+
+const productRoutes = require("./src/routes/productRoutes");
+const authRoutes = require("./src/routes/authRoutes"); // ✅ AJOUT
+
+app.use("/api/products", productRoutes);
+app.use("/api/auth", authRoutes); // ✅ AJOUT
+
+/* Test route */
+
+app.get("/api", (req, res) => {
+  res.json({ message: "API running" });
+});
+
+/* Start server */
+
+app.listen(5000, () => {
+  console.log("Server running on port 5000");
+});
