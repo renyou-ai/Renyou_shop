@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 
-import Navbar from "../components/Navbar";
-import Breadcrumb from "../components/Breadcrumb";
-import FilterSidebar from "../components/FilterSidebar";
-import ProductGrid from "../components/ProductGrid"; // ✅ FIX ICI
-import Pagination from "../components/Pagination";
-import Footer from "../components/Footer";
-
+import Navbar from "@/components/layout/Navbar";
+import Breadcrumb from "@/components/layout/Breadcrumb";
+import FilterSidebar from "@/components/FilterSidebar";
+import ProductGrid from "@/components/product/ProductGrid";
+import Pagination from "@/components/ui/Pagination";
+import Footer from "@/components/layout/Footer";
 import { getProducts } from "../api/products.api";
 
 function Shop() {

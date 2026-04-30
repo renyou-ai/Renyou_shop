@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* RESET TOTAL */
+* {
+  cursor: default !important;
+}
+
+/* INPUT ONLY */
+input, textarea {
+  cursor: text !important;
+}
+
+/* CLICKABLE */
+button, a {
+  cursor: pointer !important;
+}

@@ -1,15 +1,25 @@
 /* eslint-disable react-refresh/only-export-components */
-import { createContext, useContext, useMemo, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import PropTypes from "prop-types";
+import { jwtDecode } from "jwt-decode";
 
 const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
   const [token, setToken] = useState(localStorage.getItem("token"));
 
-  const user = useMemo(() => {
-    return token ? { authenticated: true } : null;
-  }, [token]);
+  // ✅ récupérer user depuis token
+  const getUserFromToken = () => {
+    if (!token) return null;
+
+    try {
+      return jwtDecode(token);
+    } catch {
+      return null;
+    }
+  };
+
+  const user = getUserFromToken();
 
   const loginUser = (data) => {
     localStorage.setItem("token", data.token);

@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { User, Mail, Lock, Eye, EyeOff, ChevronDown } from "lucide-react";
-import { register } from "../api/auth.api";
-import { useAuth } from "../context/AuthContext";
-
+import { register } from "@/api/auth.api";
+import { useAuth } from "@/context/AuthContext";
 export default function Register() {
   const navigate = useNavigate();
   const { registerUser } = useAuth();

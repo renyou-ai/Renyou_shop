@@ -1,23 +1,39 @@
-import { useEffect } from "react";
-import api from "../api/axiosInstance";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
-function Home() {
-
-  useEffect(() => {
-    api.get("/")
-      .then((res) => {
-        console.log(res.data);
-      })
-      .catch((err) => {
-        console.error(err);
-      });
-  }, []);
-
+import HeroSection from "@/components/home/HeroSection";
+import SkincareSection from "@/components/home/SkincareSection";
+import ProductList from "@/components/product/ProductList";
+import PromoBanner from "@/components/home/PromoBanner";
+import BestSeller from "@/components/home/BestSeller";  
+import HowItWorks from "@/components/home/HowItWorks";
+import Brands from "@/components/home/Brands";
+import InfoSection from "@/components/home/InfoSection";
+import Testimonials from "@/components/home/Testimonials";
+export default function Home() {
   return (
-    <div className="text-3xl">
-      Home Page
-    </div>
+    <>
+      <Navbar />
+
+      <HeroSection />
+
+      <SkincareSection />
+
+      <HowItWorks />
+
+      <BestSeller title="Best Sellers" />
+
+      <PromoBanner />
+
+      <ProductList title="New Arrivals" />
+
+      <Brands />
+
+      <Testimonials />
+      
+      <InfoSection />
+
+      <Footer />
+    </>
   );
 }
-
-export default Home;
