@@ -1,0 +1,39 @@
+# Requirements pour le pipeline RAG orchestré
+# Python 3.12 recommandé
+
+# Utilitaires généraux
+pdfplumber>=0.9.0
+nltk>=3.8
+wordcloud>=1.8
+groq>=0.4.0
+
+# Écosystème LangChain 0.3.x (versions compatibles)
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-text-splitters>=0.0.1
+langchain-community>=0.1.0
+
+# HuggingFace (versions compatibles)
+huggingface-hub>=0.17.0
+transformers>=4.30.0
+sentence-transformers>=2.0.0
+langchain-huggingface>=0.0.1
+
+# ChromaDB + OpenTelemetry
+chromadb>=0.4.0
+langchain-chroma>=0.1.0
+opentelemetry-api>=1.0.0
+opentelemetry-sdk>=1.0.0
+
+# Data science & visualisation
+pandas>=1.5.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Google Drive (optionnel mais recommandé pour connecter au Drive)
+pydrive2>=1.20.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.95.0
+seaborn>=0.12.0
+numpy>=1.23.0

@@ -1,0 +1,185 @@
+Matrices de corrélation des réponses au questionnaire
+1. Détermination du type de peau primaire
+
+
+Réponses combinées
+Diagnostic probable
+Indice de confiance
+Brillance au réveil + Pores dilatés + Imperfections fréquentes
+Peau grasse
+90%
+Tiraillements + Inconfort + Jamais de brillance
+Peau sèche
+85%
+Zone T brillante + Joues normales/sèches
+Peau mixte
+80%
+Ni sécheresse ni brillance excessive + Pores fins
+Peau normale
+75%
+Rougeurs fréquentes + Picotements + Réactions aux produits
+Peau sensible
+85%
+Brillance excessive + Déshydratation + Sensation de tiraillement
+Peau grasse déshydratée
+70%
+2. Évaluation du niveau de déshydratation
+
+
+Combinaison de signes
+Niveau de
+déshydratation
+Actions recommandées
+Tiraillements permanents + Ridules visibles +
+Inconfort constant
+Sévère
+Correction immédiate + Soins
+intensifs
+Tiraillements occasionnels + Teint parfois terne
+Modérée
+Renforcement de l'hydratation
+quotidienne
+Inconfort uniquement en conditions extrêmes
+Légère
+Maintien préventif
+Aucun signe de déshydratation + Bonne élasticité
+Absente
+Routine équilibrée
+3. Évaluation de la sensibilité cutanée
+
+
+Fréquence des réactions
+Intensité
+Type de sensibilité
+Approche recommandée
+Quotidienne
+Forte
+Sensibilité
+constitutionnelle
+Programme hypoallergénique
+permanent
+Occasionnelle
+Modérée
+Sensibilité réactionnelle
+Identification des déclencheurs
+Rare
+Légère
+Sensibilité temporaire
+Adaptation saisonnière
+Après nouveaux produits
+uniquement
+Variable
+Intolérance spécifique
+Test de tolérance systématique
+4. Classification de l'acné et des imperfections
+
+
+Type de lésions
+Distribution
+Facteurs aggravants
+Classification
+Comédons + Rares papules
+Zone T
+Cycle hormonal
+Acné légère de grade 1
+Papules + Pustules
+nombreuses
+Visage entier
+Stress + Alimentation
+Acné modérée de grade 2
+Papules + Pustules + Nodules
+Visage + Dos/Torse
+Génétique +
+Hormones
+Acné sévère de grade 3
+Kystes douloureux + Nodules
+Concentration
+joues/mâchoire
+Hormones + Âge
+adulte
+Acné kystique/acné
+tardive
+5. Analyse des facteurs de vieillissement cutané
+
+
+Âge
+Signes observés
+Facteurs contributifs
+Niveau de
+vieillissement
+25-35
+ans
+Ridules expression + Teint irrégulier
+Exposition solaire + Sommeil
+insuffisant
+Précoce
+36-45
+ans
+Rides visibles + Perte d'éclat
+Tabac + Pollution + Stress
+Modéré
+46-55
+ans
+Relâchement + Perte de densité
+Ménopause + Exposition chronique
+Attendu
+56+ ans
+Rides profondes + Relâchement
+marqué
+Facteurs cumulatifs + Génétique
+Avancé
+6. Tableau de correspondance: symptômes et conditions dermatologiques
+spécifiques
+
+
+Symptômes combinés
+Condition probable
+Vérifications
+supplémentaires
+Rougeurs permanentes + Vaisseaux visibles + Aggravation
+thermique
+Couperose/Rosacée
+Antécédents familiaux
+Squames jaunâtres + Rougeurs sourcils/ailes du nez
+Dermatite
+séborrhéique
+Présence sur cuir chevelu
+Démangeaisons + Plaques rouges qui pèlent
+Eczéma/Dermatite
+Tests allergologiques
+Taches brunes symétriques + Aggravation solaire
+Mélasma
+Influence hormonale
+7. Matrice de prise de décision thérapeutique
+
+
+Type de
+peau
+Problématique
+principale
+Routine recommandée
+Actifs prioritaires
+Sèche
+Déshydratation
+3 étapes + Masque hydratant
+2x/semaine
+Céramides, Acides gras, Glycérine
+Grasse
+Excès de sébum
+4 étapes + Masque purifiant
+1x/semaine
+Acide salicylique, Niacinamide, Zinc
+Mixte
+Déséquilibre
+3-4 étapes + Soins ciblés par zone
+Actifs équilibrants, Hydratants légers
+Sensible
+Réactivité
+2-3 étapes minimalistes
+Agents apaisants, Renforçateurs de
+barrière
+Mature
+Vieillissement
+4-5 étapes + Soins anti-âge ciblés
+Peptides, Antioxydants, Rétinol
+adapté

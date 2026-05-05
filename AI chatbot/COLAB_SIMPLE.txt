@@ -1,0 +1,203 @@
+════════════════════════════════════════════════════════════════════════════════
+🚀 GOOGLE COLAB - CODE À COPIER-COLLER
+════════════════════════════════════════════════════════════════════════════════
+
+Allez sur: https://colab.research.google.com/
+
+Créez un notebook nouveau.
+
+Puis exécutez les cellules ci-dessous une par une (Ctrl+Entrée)
+
+════════════════════════════════════════════════════════════════════════════════
+CELLULE 1: INSTALLER LES DÉPENDANCES
+════════════════════════════════════════════════════════════════════════════════
+
+!pip install pydrive2 langchain chromadb google-auth-oauthlib PyPDF2 torch sentence-transformers
+
+════════════════════════════════════════════════════════════════════════════════
+CELLULE 2: AUTHENTIFICATION GOOGLE DRIVE
+════════════════════════════════════════════════════════════════════════════════
+
+from google.colab import auth, drive
+
+# Authentifier avec Google
+auth.authenticate_user()
+
+# Monter Google Drive
+drive.mount('/content/drive')
+
+print("✅ Authentification réussie!")
+print("✅ Google Drive monté!")
+
+════════════════════════════════════════════════════════════════════════════════
+CELLULE 3: VÉRIFIER LES FICHIERS
+════════════════════════════════════════════════════════════════════════════════
+
+import os
+
+# Lister les fichiers du Drive
+my_drive_path = '/content/drive/My Drive'
+
+files = os.listdir(my_drive_path)
+print(f"✅ Fichiers trouvés: {len(files)}")
+for i, f in enumerate(files[:5]):
+    print(f"  {i+1}. {f}")
+
+if len(files) > 5:
+    print(f"  ... et {len(files) - 5} autre(s)")
+
+════════════════════════════════════════════════════════════════════════════════
+CELLULE 4: ACCÉDER À VOS DOSSIERS
+════════════════════════════════════════════════════════════════════════════════
+
+# 🔧 ADAPTER LES CHEMINS À VOTRE STRUCTURE!
+# Remplacez "RENYOU" par votre vrai dossier
+
+PDF_FOLDER = '/content/drive/My Drive/RENYOU/PDFs'
+TXT_FOLDER = '/content/drive/My Drive/RENYOU/TXTs'
+
+# Vérifier les PDFs
+if os.path.exists(PDF_FOLDER):
+    pdfs = os.listdir(PDF_FOLDER)
+    print(f"✅ {len(pdfs)} PDFs trouvés")
+    for pdf in pdfs[:3]:
+        print(f"   📄 {pdf}")
+else:
+    print(f"❌ Dossier PDF non trouvé: {PDF_FOLDER}")
+    print(f"   Utilisez: !ls -la /content/drive/My\\ Drive/")
+
+# Vérifier les TXTs
+if os.path.exists(TXT_FOLDER):
+    txts = os.listdir(TXT_FOLDER)
+    print(f"✅ {len(txts)} TXTs trouvés")
+    for txt in txts[:3]:
+        print(f"   📝 {txt}")
+else:
+    print(f"❌ Dossier TXT non trouvé: {TXT_FOLDER}")
+
+════════════════════════════════════════════════════════════════════════════════
+CELLULE 5: VOTRE CODE RAG (À ADAPTER)
+════════════════════════════════════════════════════════════════════════════════
+
+# Voici comment utiliser votre code RAG dans Colab
+
+from langchain.document_loaders import PyPDFLoader, TextLoader
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.vectorstores import Chroma
+
+# Utiliser les chemins Colab
+PDF_FOLDER = '/content/drive/My Drive/RENYOU/PDFs'
+TXT_FOLDER = '/content/drive/My Drive/RENYOU/TXTs'
+
+# Charger les PDFs
+documents = []
+
+# Charger les PDFs
+import os
+for pdf_file in os.listdir(PDF_FOLDER):
+    if pdf_file.endswith('.pdf'):
+        try:
+            loader = PyPDFLoader(os.path.join(PDF_FOLDER, pdf_file))
+            docs = loader.load()
+            documents.extend(docs)
+            print(f"✅ Chargé: {pdf_file}")
+        except Exception as e:
+            print(f"❌ Erreur: {pdf_file}: {e}")
+
+# Charger les TXTs
+for txt_file in os.listdir(TXT_FOLDER):
+    if txt_file.endswith('.txt'):
+        try:
+            loader = TextLoader(os.path.join(TXT_FOLDER, txt_file), encoding='utf-8')
+            docs = loader.load()
+            documents.extend(docs)
+            print(f"✅ Chargé: {txt_file}")
+        except Exception as e:
+            print(f"❌ Erreur: {txt_file}: {e}")
+
+print(f"\n✅ Total: {len(documents)} documents chargés")
+
+# Traiter les documents
+text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+chunks = text_splitter.split_documents(documents)
+
+print(f"✅ {len(chunks)} chunks créés")
+
+# Créer les embeddings
+embeddings = HuggingFaceEmbeddings()
+vectorstore = Chroma.from_documents(chunks, embeddings)
+
+print("✅ Vectorstore créé!")
+
+════════════════════════════════════════════════════════════════════════════════
+CELLULE 6: RÉPONDRE À DES QUESTIONS
+════════════════════════════════════════════════════════════════════════════════
+
+from langchain.llms import HuggingFaceHub
+from langchain.chains import RetrievalQA
+
+# Créer une chaîne RAG
+llm = HuggingFaceHub(
+    repo_id="google/flan-t5-xxl",
+    model_kwargs={"temperature": 0.7}
+)
+
+qa_chain = RetrievalQA.from_chain_type(
+    llm=llm,
+    chain_type="stuff",
+    retriever=vectorstore.as_retriever()
+)
+
+# Poser une question
+question = "Quelle est la maladie principale discutée?"
+answer = qa_chain.run(question)
+
+print(f"Question: {question}")
+print(f"Réponse: {answer}")
+
+════════════════════════════════════════════════════════════════════════════════
+IMPORTANT: ADAPTER LES CHEMINS!
+════════════════════════════════════════════════════════════════════════════════
+
+Si vous ne savez pas où sont vos fichiers, exécutez ceci:
+
+!ls -la /content/drive/My\ Drive/
+
+Cela affichera tout ce qui est dans votre Drive!
+
+Puis remplacez "RENYOU" par le vrai nom du dossier.
+
+════════════════════════════════════════════════════════════════════════════════
+EXEMPLES DE CHEMINS
+════════════════════════════════════════════════════════════════════════════════
+
+Scenario 1: Dossier RENYOU à la racine
+PDF_FOLDER = '/content/drive/My Drive/RENYOU/PDFs'
+
+Scenario 2: Dossier dans Projects
+PDF_FOLDER = '/content/drive/My Drive/Projects/RENYOU/PDFs'
+
+Scenario 3: Dossier imbriqué
+PDF_FOLDER = '/content/drive/My Drive/Sprint 2/PDFs'
+
+Scenario 4: Fichiers directement
+PDF_FOLDER = '/content/drive/My Drive/PDFs'
+
+════════════════════════════════════════════════════════════════════════════════
+✅ C'EST TOUT!
+════════════════════════════════════════════════════════════════════════════════
+
+Après ces 6 cellules:
+
+✅ Authentification faite automatiquement
+✅ Google Drive accédé directement
+✅ Documents chargés du Drive
+✅ Vectorstore créé
+✅ RAG prêt à répondre des questions
+
+Pas d'erreur "Backend is not configured"!
+Pas de client_secrets.json!
+Pas de configuration OAuth manuelle!
+
+════════════════════════════════════════════════════════════════════════════════

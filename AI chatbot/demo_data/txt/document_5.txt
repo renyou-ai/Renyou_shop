@@ -1,0 +1,101 @@
+Base de connaissances dermatologiques pour 
+système RAG
+1. Classification des types de peau
+Peau sèche
+Caractéristiques principales: Manque de sébum, tiraillements, desquamation
+Causes fréquentes: Prédisposition génétique, vieillissement, environnement sec, utilisation 
+de produits agressifs
+Signes cliniques: Rugosité, teint terne, rides fines, inconfort après nettoyage
+Comportement face aux cosmétiques: Absorbe rapidement les soins, sensation 
+d'inconfort si non hydratée
+Zones caractéristiques: Joues, contour des yeux, mains
+Peau grasse
+Caractéristiques principales: Excès de sébum, brillance, pores dilatés
+Causes fréquentes: Déséquilibre hormonal, génétique, stress, alimentation riche en sucres 
+raffinés
+Signes cliniques: Brillance excessive, pores visibles, tendance acnéique, épaisseur cutanée 
+augmentée
+Comportement face aux cosmétiques: Difficulté à faire pénétrer les soins, maquillage qui 
+migre
+Zones caractéristiques: Zone T (front, nez, menton)
+Peau mixte
+Caractéristiques principales: Combinaison de zones grasses et sèches
+Causes fréquentes: Déséquilibre de la production de sébum selon les zones du visage
+Signes cliniques: Zone T grasse, joues normales à sèches
+Comportement face aux cosmétiques: Nécessite des approches différentes selon les 
+zones
+Zones caractéristiques: Zone T grasse, joues et contour des yeux plus secs
+Peau normale/équilibrée
+Caractéristiques principales: Production de sébum équilibrée, hydratation optimale
+Causes fréquentes: Équilibre hormonal, bonne hydratation, génétique favorable
+Signes cliniques: Grain de peau fin, pores peu visibles, teint homogène
+Comportement face aux cosmétiques: Tolère bien la plupart des formulations
+Zones caractéristiques: Aspect homogène sur l'ensemble du visage
+Peau sensible/réactive
+Caractéristiques principales: Réactivité excessive, inflammation facile
+Causes fréquentes: Barrière cutanée fragilisée, prédisposition génétique, exposition aux 
+irritants
+Signes cliniques: Rougeurs, sensations de picotements, réactions aux produits
+Comportement face aux cosmétiques: Intolérance aux actifs puissants, parfums, alcool
+Zones caractéristiques: Joues, ailes du nez, zones de friction
+2. Problématiques cutanées spécifiques
+Déshydratation cutanée
+Définition: Manque d'eau dans les couches supérieures de l'épiderme
+Différence avec peau sèche: La déshydratation est un état temporaire, la sécheresse est 
+un type de peau
+Signes cliniques: Ridules de déshydratation, tiraillements, manque d'éclat
+Facteurs aggravants: Climat, chauffage/climatisation, nettoyage excessif
+Tests diagnostiques: Pincement cutané, test d'élasticité
+Acné et imperfections
+Types d'acné: Acné rétentionnelle, inflammatoire, hormonale, tardive
+Lésions caractéristiques: Comédons fermés/ouverts, papules, pustules, nodules, kystes
+Mécanismes physiopathologiques: Hyperséborrhée, hyperkeratinisation, inflammation, 
+prolifération bactérienne
+Facteurs aggravants: Stress, alimentation, cosmétiques comédogènes
+Approches thérapeutiques selon la sévérité: Topiques, oraux, combinaisons
+Hyperpigmentation et taches
+Types de troubles pigmentaires: Mélasma, lentigos solaires, taches post-inflammatoires
+Mécanismes de formation: Surproduction de mélanine, accumulation de mélanocytes
+Facteurs aggravants: Exposition solaire, hormones, inflammation
+Caractéristiques cliniques distinctives: Morphologie, délimitation, répartition
+Signes de vieillissement cutané
+Rides et ridules: Classification selon profondeur et mécanisme
+Relâchement cutané: Perte d'élasticité, affaissement des contours
+Atrophie cutanée: Amincissement du derme et de l'épiderme
+Facteurs intrinsèques et extrinsèques: Génétique vs environnement
+Sensibilités et intolérances
+Dermatite de contact: Irritative vs allergique
+Rosacée: Sous-types et caractéristiques cliniques
+Dermatite séborrhéique: Zones touchées et manifestations
+Allergènes fréquents dans les cosmétiques: Parfums, conservateurs, tensioactifs
+3. Évaluation diagnostique
+Interprétation des réponses au questionnaire
+Corrélation entre questions et types de peau: Tableaux de correspondance
+Système de scoring: Pondération des réponses selon leur valeur diagnostique
+Algorithmes décisionnels: Arbres de décision selon les combinaisons de réponses
+Analyse des facteurs confondants
+Facteurs environnementaux: Climat, pollution, exposition solaire
+Facteurs comportementaux: Routine de soins, hygiène de vie
+Facteurs physiologiques: Âge, sexe, statut hormonal
+Diagnostic différentiel
+Peau mixte vs grasse déshydratée: Critères distinctifs
+Sensibilité vs allergie: Signes discriminants
+Acné vs rosacée: Éléments diagnostiques clés
+4. Recommandations personnalisées
+Principes actifs par type de peau
+Peau sèche: Acides gras essentiels, céramides, agents émollients
+Peau grasse: Niacinamide, acide salicylique, zinc
+Peau sensible: Agents calmants, extraits anti-inflammatoires
+Peau déshydratée: Acide hyaluronique, glycérine, facteurs naturels d'hydratation
+Routines adaptées
+Séquence de soins: Étapes essentielles selon le type de peau
+Fréquence d'application: Quotidienne vs hebdomadaire
+Combinaisons d'actifs optimales: Synergies et incompatibilités
+Ajustements selon les facteurs de vie
+Adaptations saisonnières: Modifications selon le climat
+Considérations professionnelles: Expositions spécifiques (écrans, extérieur)
+Facteurs hormonaux: Cycle menstruel, grossesse, ménopause
+Techniques d'application
+Méthodes de nettoyage optimales: Techniques selon type de peau
+Massages faciaux: Drainage, stimulation, relaxation
+Gestes à éviter: Pratiques néfastes selon la problématique

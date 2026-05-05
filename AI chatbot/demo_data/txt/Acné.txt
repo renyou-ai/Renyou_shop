@@ -1,0 +1,897 @@
+Acné
+Acné faciale chez un adolescent.
+Causes
+Variation génétique (en)
+Symptômes
+Pimple (en)
+Traitement
+Traitement
+Isotrétinoïne
+Médicament
+Noréthistérone,
+oxytétracycline,
+hexachlorophène, acide
+salicylique, minocycline,
+tazarotène, isotrétinoïne,
+adapalène, érythromycine,
+tétracycline, desogestrel (en),
+déméclocycline, acide
+azélaïque, clindamycine,
+meclocycline sulfosalicylate
+(d), peroxyde de benzoyle,
+hydrochlorothiazide /
+spironolactone (d),
+sulfamethoxazole /
+trimethoprim (d), doxycycline,
+dapsone, tazarotène,
+dapsone et trétinoïne
+Spécialité
+Dermatologie et médecine
+générale
+Classification et ressources externes
+Acné
+L'acné est une maladie dermatologique courante et
+chronique du système pilosébacé (qui comprend le
+follicule pileux, la tige pilaire et la glande sébacée
+sécrétant le sébum, à la racine du poil). C'est une
+maladie inflammatoire de la peau dans laquelle les
+glandes sébacées jouent un rôle clé.
+Elle survient généralement à l’adolescence et est
+liée à l’hypersécrétion de sébum (hyperséborrhée)
+et à des anomalies de kératinisation aboutissant à
+l'obstruction du canal excréteur du follicule
+pilosébacé, et à la formation de comédons.
+Ces lésions, dites «  rétentionnelles  », peuvent se
+compliquer d'une inflammation, causée par une
+bactérie 
+anaérobie 
+de 
+la 
+flore 
+cutanée,
+Cutibacterium acnes, qui prolifère dans le sébum.
+Cette maladie souvent chronique est considérée
+comme nécessitant un traitement d'induction puis
+un suivi, avec un éventuel traitement d’entretien .
+Dans la plupart des pays, 80 % des gens subissent
+l'acné au moins une fois dans leur vie . Elle est
+modérée à sévère dans 20 % des cas. Elle semble
+être en augmentation chez l'adulte (pour les deux
+sexes ; environ 40  % des adultes la subissaient
+épisodiquement au début des années 2000) .
+Comme c'est une maladie courante et jugée bénigne
+(dans la plupart des cas), le sujet acnéique consulte
+rarement (une personne sur deux en moyenne au
+début du xxie  siècle) et seuls 50  % des jeunes
+déclarant 
+une 
+acné 
+sévère 
+se 
+traitent .
+1
+1
+1
+1
+CISP-2
+S96
+CIM-10
+L70.0 (https://icd.who.int/bro
+wse10/2008/fr#/L70.0)
+CIM-9
+706.1 (http://www.icd9data.c
+om/getICD9Code.ashx?icd9=
+706.1)
+OMIM
+604324 (https://www.ncbi.nl
+m.nih.gov/omim/604324)
+DiseasesDB
+10765 (http://www.diseasesd
+atabase.com/ddb10765.htm)
+MedlinePlus
+000873 (https://www.nlm.nih.
+gov/medlineplus/ency/article/
+000873.htm)
+eMedicine
+1069804 (https://emedicine.
+medscape.com/article/10698
+04)
+MeSH
+D000152 (https://meshb.nlm.
+nih.gov/record/ui?ui=D00015
+2)
+Patient UK
+Acne-vulgaris (https://patient.
+info/doctor/Acne-vulgaris)
+ Mise en garde médicale
+L'antibiorésistance à 3 ou 4 familles d'antibiotiques
+est de plus en plus fréquente, dans des pays très
+variés .
+Le mot « acné », emprunté à l'anglais, est une forme
+erronée du mot grec ακμή (akmế), qui signifie
+« pointe », « sommet », qui a été transformé par une
+erreur de copiste en akne (Aestius). Il a été employé
+alors pour définir les points noirs et autres granules
+de peau.
+L'acné est le plus souvent primitive et commence
+généralement 
+à 
+la 
+puberté 
+; 
+elle 
+marque
+l'adolescence d'environ 80  % des gens, toutes
+ethnies confondues, mais son incidence est en fait
+variable, la gêne occasionnée étant inconstante et
+les consultations loin d'être systématiques. De plus,
+la définition de l'acné en tant que maladie est
+discutée (à partir de combien de boutons ?).
+Bien que touchant tous les groupes ethniques, l'acné ne semble pas affecter les populations non
+occidentalisées de la Papouasie-Nouvelle-Guinée et du Paraguay .
+L'acné touche principalement les adolescents, de façon plus ou moins sévère, et plus rarement les
+nourrissons. En général, elle cesse spontanément à la fin de l'adolescence. Elle peut persister chez
+l'adulte, plus souvent chez la femme , chez laquelle l'acné semble en augmentation dans les années 2000
+pour des raisons encore mal comprises (le stress ou une perturbation hormonale ont été suggérés mais
+sans preuves claires selon l'anatomiste Gabriel Djafari, qui évoque un possible biais de consultation).
+Chez la femme, l'acné est alors inflammatoire, chronique et récidivante, et concerne plutôt le bas du
+visage. Elle impose une adaptation de la contraception et son traitement passe souvent par
+l'administration d'isotrétinoïne . Ce médicament ne doit absolument pas être pris en cas de grossesse.
+L'ANSM s'inquiète : « le nombre de grossesses, chez des femmes traitées exposant les enfants à naître à
+des risques de malformations graves, reste élevé (environ 175 grossesses chaque année). Des troubles
+psychiatriques continuent également d'être rapportés avec ces médicaments . »
+2
+Étymologie
+Épidémiologie
+3
+4
+5
+6
+Fonctionnement de l'acné
+Il ne faut pas confondre l'acné avec la chloracné qui correspond à des manifestations cutanées après
+intoxication par des produits chimiques chlorés comme les dioxines.
+En l'état actuel des connaissances il n'y a pas de certitude sur
+les causes premières de l'acné  ; la responsabilité du facteur
+génétique ou du stress font l'objet de controverses
+scientifiques ; l’hygiène, l’environnement, l’alimentation et la
+qualité de vie, à des degrés divers peuvent influer plus ou
+moins directement sur l’apparition et/ou la gravité des
+symptômes cutanés. La multiplication de la bactérie
+Cutibacterium acnes est indispensable au développement.
+Un facteur génétique a été avancé
+.
+Les facteurs hormonaux sont également prépondérants : plus fréquents chez les jeunes, avec une relative
+exacerbation chez la femme durant les menstruations . L'acné apparaît typiquement pendant la durée de
+la puberté, scène de grands bouleversements hormonaux.
+Des altérations de la composition en acides gras du sébum sont constatées lors des crises d'acné (causes
+et/ou conséquences  ?), ainsi que des interactions avec des neuropeptides, une hyperkératinisation
+folliculaire, conjointement à une inflammation et à des dysfonctionnements de l'immunité (à la fois
+l'immunité innée et l'immunité adaptative).
+Le stress est considéré comme un facteur aggravant
+ ainsi que le tabagisme
+.
+Le bronzage épaissit la peau, et aggrave l'acné, malgré une amélioration transitoire en début d'exposition
+(due à l'effet bactéricide des rayonnements UV et à la couleur du bronzage qui diminue l'apparence des
+lésions). De même, l'exposition permanente à un milieu chaud et humide favorise l'éruption («  acné
+tropicale »)
+.
+Les cosmétiques, notamment gras ou huileux, peuvent également contribuer à boucher les pores et à
+donner des boutons, points noirs ou microkystes.
+L'exposition à certains polluants
+, notamment ceux chlorés semble être un facteur de risque  ; la
+catastrophe de Seveso a eu parmi ses conséquences de déclencher une épidémie d'acné chez la population
+touchée par les dioxines. Certains pesticides, peut-être en raison de leur caractère de perturbateur
+endocrinien, semblent capables de déclencher des épisodes d'acné dite «  chlorique  » ou chloracné.
+Certains médicaments favorisent également l'acné : antiépileptiques, géfitinib (anticancéreux)
+, stéroïdes
+anabolisants
+, certains corticoïdes et antidépresseurs.
+Selon certains chercheurs, la présence d'acné serait liée à la présence d'un arthropode localisé dans la
+peau dénommé Demodex folliculorum qui vit en symbiose avec une ou plusieurs bactéries présentes dans
+les boutons. Un traitement combinant un antibiotique et un antiparasitaire pourrait donner de l’espoir aux
+Causes
+7, 8
+9
+10
+11
+12
+13
+14
+15
+Parasites
+16
+personnes porteuses de ce type d'affection
+.
+D'après une revue systématique de 2015
+, l'acné serait étroitement liée à l'alimentation de type
+occidental, et en particulier aux glucides à indice glycémique élevé
+, au lait et produits laitiers
+, et
+aux graisses saturées (y compris les acides gras trans) et acides gras pauvres en oméga 3.
+Ces produits sont soupçonnés d'agir par le biais de l'hormone IGF-1 qui stimule entre autres la synthèse
+d'androgènes et la prolifération des cellules des glandes sébacées
+. Le cacao serait aussi en cause
+.
+L'efficacité du traitement par la vitamine B5 pourrait laisser penser que l'une des causes de l'acné soit une
+carence en vitamine B5 entraînant une déficience en coenzyme A, essentielle à l'activation de la
+dégradation des acides gras par la β-oxydation 
+.
+L'acné est une maladie de la peau et plus précisément des follicules pilosébacés. Lors de cette affection,
+le canal pilaire se retrouve obstrué par du sebum et des cellules mortes, entraînant diverses lésions
+consécutives à la rétention du sébum, à l'inflammation ou à l'infection des follicules pilosébacés.
+C'est une production excessive de sébum, d'origine hormonale, qui confère un aspect luisant à la peau.
+16
+Alimentation
+17
+18
+19, 20
+21
+22
+23
+Physiopathologie
+Hyperséborrhée
+Le sébum sert à protéger la peau des agressions extérieures, en formant un mince film lipidique à sa
+surface. Lors de la puberté, la brutale augmentation du taux des hormones circulantes (testostérone en
+particulier) provoque un excès d'activité des glandes pilosébacées (via une enzyme  : la 5-alpha
+réductase).
+La prolifération chaotique des cellules favorise la surproduction de sébum et sa rétention d'où la
+multiplication des points blancs. L'épaississement de la partie externe de la glande peut entraîner aussi
+l'inflammation des follicules pileux. Cette obstruction d'une glande remplie d'un excès de sébum entraîne
+l'apparition d'un comédon, qui en se kératinisant et en s'oxydant va devenir un point noir.
+Cutibacterium acnes (anciennement Propionibacterium acnes) est une bactérie qui vit normalement chez
+tout le monde, dans les follicules. Elle ne provoque pas d'infection, mais aggrave l'inflammation du
+follicule lorsqu’il y a un excès de sébum, à l'origine des boutons rouges.
+On recherche les lésions suivantes, souvent associées, de gravité et d'étendue variables. Les régions les
+plus fréquentes sont le visage (dermatose faciale), le cou, le décolleté, les épaules, le dos, correspondant
+aux endroits à plus grande densité de follicules pilosébacés
+ :
+hyperséborrhée (peau grasse) ;
+comédons et point noirs ;
+papules : les papules sont des surélévations de la peau, inflammatoires (rouges, chaudes,
+tuméfiées, douloureuses parfois), qui font suite à un comédon (= microkyste), de moins de
+5 mm de diamètre. Elles disparaissent toutes seules, ou donnent une pustule ;
+pustules : elles contiennent un contenu jaune purulent ;
+nodules : les nodules sont des lésions inflammatoires profondes, de plus de 5 mm de
+diamètre. Elles finissent par se rompre et laissent une cicatrice sur la peau.
+Pour l'adolescent comme pour l'adulte
+, le plus souvent le problème n'est pas tant dermatologique que
+sociopsychologique  : l'acné a des conséquences sur la perception de soi par le sujet atteint, avec très
+souvent des conséquences sur la vie sociale, le stress, l'estime de soi
+, la confiance en soi et donc sur la
+qualité de vie
+. L'importance de ces effets, souvent mesuré au moyen de questionnaires
+, n'a
+fréquemment pas de lien avec la gravité des lésions  : il n'existe qu'une faible corrélation entre
+l'importance de l'atteinte dermatologique et ses conséquences psychologiques scientifiquement évaluées
+ou déclarées
+. Chez certains l'acné peut contribuer à une dépression ou à une phobie sociale.
+Une directive (directive S3) du Forum européen de dermatologie pour le traitement de l'acné a
+recommandé que la qualité de vie du patient soit évaluée au moment du diagnostic, puis mieux prise en
+compte par le traitement de gestion de l'acné
+. Un groupe de travail
+ a documenté l'utilisation
+Obstruction des follicules
+Prolifération d'une bactérie
+Formes typiques
+14
+Conséquences sociopsychologiques
+24
+25
+26
+27
+28
+29
+30
+Différentes formes d'acné.
+d'instruments de mesure de la qualité de vie de patients acnéiques, la validation de ces outils, et leurs
+objectifs, leurs limites (utilisations inadéquates...) et a produit des recommandations générales
+.
+En 2010, les facteurs reconnus comme annonçant une acné plus sévère sont :
+l’hyper séborrhée  ;
+l'apparition précoce de l'acné (pré pubertaire) ou au contraire tardive (après l'âge de
+17 ans)  ;
+une acné s'étendant au dos ; le stress (chez les deux sexes)  ;
+un contexte d'acné familiale . L'impact du tabagisme et de l'alimentation sont encore
+discutés en tant que cause .
+Des classifications ont été proposées, basées sur le
+comptage des lésions, leur localisation, via des
+méthodes photographiques parfois, mais il n’y a pas
+de consensus sur les critères de classement, ce qui a
+rendu difficile la comparaison d'essais cliniques
+contrôlés randomisés relatifs à l'évaluation de
+traitements médicaux ou préventifs.
+Elle associe toutes les lésions, avec des pustules en
+grand nombre, des cicatrices, atteignant le tronc, le
+dos, les fesses et parfois le dessus des grandes lèvres
+chez la femme.
+L'Acné conglobata est une forme rare d'acné très
+grave, 
+profuse, 
+de 
+durée 
+prolongée. 
+Touche
+préférentiellement l'homme. On distingue les lésions
+élémentaires, associées à des abcès, des fistules, des
+cicatrices creusantes ou en relief (cicatrice chéloïdienne). Elle entraîne un handicap social majeur et doit
+être traitée vite et efficacement.
+Acné de l'enfant : néonatale (acne neonatorum), infantile ou prébubertaire
+Acné juvénile (en période pubertaire)
+Acné causée par les médicaments (œstroprogestatifs, corticostéroïdes, anti-épileptiques,
+androgènes, lithium, antituberculeux, vitamine B12, halogènes, médicaments
+immunosuppresseurs…)
+29
+Pronostic de sévérité
+1
+1
+1
+1
+1
+Classifications et formes particulières
+Acné nodulokystique
+Acné conglobata
+Autres formes
+Acné exogène : rôle prépondérant d'un contact prolongé avec des huiles minérales
+(garagistes, mécaniciens, fraiseurs...) avec des lésions des cuisses et bras, mais aussi
+aux cosmétiques (crèmes hydratantes content des huiles végétales, poudre de
+pigments...) localisée aux visages pour cette dernière.
+Acné secondaire à une maladie générale (maladie hormonale, syndrome de Stein-
+Leventhal, hirsutisme…)
+Acné causée par une rosacée (couperose)
+Acné excoriée : forme majoritairement féminine, causée par une manipulation excessive
+de la peau. Un contingent psychologie ou psychiatrique est parfois retrouvé.
+Elle porte sur les facteurs de risque modifiables (ex : maladies systémiques sous-jacentes) et le mode de
+vie. Diverses recommandations sont périodiquement publiées, mais pas toujours basées sur des preuves
+incontestables
+.
+Les traitements longs et parfois complexes sont souvent mal observés par les patients
+. Ils doivent être
+respectés pour éviter les risques de rechute
+ et d'antibiorésistance. La recherche d'alternatives à
+l'antibiothérapie seule est maintenant recommandée
+.
+L'acné est une affection très souvent bénigne évoluant généralement vers la disparition spontanée en
+quelques années. Mais son impact sociopsychologique et le risque possible de cicatrices (dans les formes
+graves) conduisent à souvent médicalement traiter l'acné.
+Des recommandations sont périodiquement publiées et mises à jour pour la prise en charge de l'acné, dont
+par l'Académie américaine de dermatologie en 2003
+ puis en 2007
+. Le niveau de preuve reste
+cependant faible, avec des conflits d'intérêts non négligeables parmi les experts
+.
+Il est suggéré de réduire l'apport alimentaire total en énergie (glucides hyperglycémiques (sucres et
+amidon) notamment), en protéines laitières et protéines riches en leucine (principalement fournies par la
+viande et les produits laitiers). L'augmentation de la consommation de légumes et de fruits pourrait avoir
+un effet bénéfique
+.
+Un nettoyage approprié et fréquent de la peau est souvent recommandé, bien que sans effets prouvés de
+façon convaincante
+, l'hygiène étant probablement plus efficace pour limiter la surinfection de l'acné que
+pour la réduire
+. Des études montrent que trop de soins du visage peuvent au contraire irriter la peau et
+exacerber l'acné
+. Divers savons et shampoings d'usage courant, appliqués en laboratoire, ont montré un
+effet comédogène
+.
+Des traitements médicamenteux existent, et tous doivent être poursuivis plusieurs mois, voire plusieurs
+années, leurs effets étant toujours modestes à court terme
+.
+Les pommades et crèmes médicales sont essentiellement à base de peroxyde de
+benzoyle (souvent disponibles en parapharmacie sans prescription médicale et au moins
+aussi efficaces que les antibiotiques
+ et semblent plus actifs que les rétinoïdes locaux
+dans les formes inflammatoires
+. Le peroxyde de benzoyle peut être irritant à des
+Prévention
+31
+31
+32
+31
+Traitement
+33
+34
+14
+35
+36
+36
+36
+37
+14
+38
+39
+concentrations élevées (qui ne sont pas plus efficaces contre l'acné que des
+concentrations moindres
+.
+des médicaments ciblent les médiateurs de l'inflammation, comme la nicotinamide, une
+molécule présente naturellement dans de nombreux aliments.
+Les rétinoïdes locaux sont efficaces dans les formes inflammatoires
+ et sur les
+comédons. Ils sont cependant irritants en début de traitement, avec parfois un eczéma
+(rarement), une photosensibilité. Ils sont tératogènes (malformation possible d'un fœtus
+avant la naissance) et nécessitent la prise d'un contraceptif chez la femme.
+le zinc atténue la sécrétion de sébum.
+Certaines pilules contraceptives ont un effet positif chez les jeunes filles.
+Des antibiotiques ont beaucoup été utilisés contre la bactérie (Cutibacterium acnes), mais
+leur usage fréquent et long a induit une résistance croissante des microbes de la peau
+aux antibiotiques (plusieurs pays signalant au début du xxe siècle que plus de 50 % des
+souches de Cutibacterium acnes sont devenues résistantes aux macrolides topiques et
+alors toujours multirésistantes à 2, 3 voire 4 antibiotiques : doxycycline tétracycline,
+érythromycine, clindamycine, ce qui les rend moins efficaces, voire inefficaces dans les
+pays où ils sont le plus utilisés ; En 2015, Walsh & al. en 2016 considèrent qu'on peut
+encore utiliser le péroxyde de benzoyle, mais associé à un rétinoïde topique, plutôt qu'un
+antibiotique topique . Les antibiotiques oraux sont à réserver aux cas d'acné modérée à
+sévère, et ils doivent toujours associés à un rétinoïde topique ou à une association de
+rétinoïdes, et ce - si possible - durant plus de 3 mois .
+L’exposition à la lumière est utilisée depuis longtemps pour diminuer l’acné
+. La lumière visible est
+utilisée pour traiter les acnés légères à modérées, surtout les formes inflammatoires (photothérapie
+dynamique ou luminothérapie pénétrante); en particulier la lumière verte
+ ou bleue intense (405-
+420 nm) générée par des lampes fluorescentes construites dans ce but, des ampoules dichroïques, des
+DEL ou des lasers.
+Dans une étude réalisée sur 30 personnes en 2002, cette lumière utilisée deux fois par semaine a entraîné
+une réduction des lésions d’acné de près de 64 %
+, et s’est montrée encore plus efficace quand elle est
+utilisée chaque jour.
+Le mécanisme semble être qu’une porphyrine (la coproporphyrine III) produite par la bactérie C. acnes
+génère des radicaux libres lorsqu’elle reçoit des rayons de 420  nm ou un peu moins
+. Au bout de
+quelques jours, ces radicaux libres finissent par tuer les bactéries
+. Comme ces bactéries ne sont pas
+normalement présentes sur la peau, et qu’il n’y a pas de rayons UV, ce traitement apparaît sans danger, et
+a été approuvé par la FDA
+. Il semble cependant que ce traitement par photothérapie soit suivi d'une
+rechute rapide
+.
+Combiner plusieurs traitements pourrait renforcer leur efficacité, mais les tests restent rares.
+40
+41
+2
+2
+Luminothérapie
+42
+43
+44
+45
+46
+47, 48
+49
+Une revue systématique de 2016 de la librairie Cochrane a évalué 71 études et conclut à l'insuffisance de
+preuves de bonne qualité pour démontrer l'efficacité des traitements de l'acné à l'aide de lumière rouge ou
+bleue
+.
+Peroxyde de benzoyle + antibiothérapie générale (pour lutter contre Cutibacterium acnes) par des
+cyclines. Les résistances du germe aux antibiotiques sont cependant de plus en plus fréquentes
+.
+Contre-indications des cyclines : grossesse, association à l'isotretinoine, enfant de moins
+de 8 ans.
+Effets secondaires possibles : photosensibilité, troubles digestifs.
+L'isotrétinoïne est une forme acide de vitamine A et un anti-inflammatoire très puissant, inhibiteur de la
+sécrétion de sébum. Mais il génère des effets secondaires gênants dans plus de 85 % des cas. Il n'est donc
+utilisé qu'après qu'une cure d'au moins trois mois à l'aide d'antibiotique n'est pas parvenu à
+significativement réduire les lésions.
+L'isotrétinoïne est absolument contrindiquée en cas de grossesse .
+L'association aux cyclines est contre-indiquée. L'association aux crèmes est inutile. Elle est classiquement
+donnée sous forme de gélules. Dans certains cas, elle peut être prescrite sous forme de pommade. Son
+mode d'action n'est pas encore très bien compris des scientifiques qui pensent que l'isotrétinoïne arrête la
+production de sébum.
+L'isotrétinoïne se présente sous divers médicaments (Roaccutane : retiré du marché dans certains pays,
+Curacné, Procuta, Contracné, etc.).
+Le traitement dure entre 4 et 6 mois. Il n'y a pas de rechute chez 80 % des patients, et en cas de rechute,
+une deuxième cure est envisageable.
+S’il n’est pas systématique, l’acné lié aux règles que l’on nomme aussi acné hormonale serait assez
+fréquent
+. Un traitement hormonal est possible par acétate de cyprotérone + éthinylestradiol (ce qui
+correspond à la prescription d'une pilule contraceptive de 5e génération). L'œstrogène diminue la
+50
+Acné papulopustuleuse de sévérité moyenne
+51
+Acné grave ou acné résistante à 3 mois de traitement antibiotique
+6
+Acné chez la femme (non enceinte)
+52
+production de sébum ainsi que la sécrétion d'androgènes. Noter que ces pilules de 5e génération ont été
+suspendues par l'ANSM en 2013 pour être responsables d'embolies cérébrales ou pulmonaires mais elles
+ont été réintroduites en 2014 comme antiacnéique
+…
+Abstention de traitement la plupart du temps, car l'acné est de courte durée (4 à 12 semaines).
+Le zinc a révélé une certaine efficacité dans l'acné inflammatoire
+. Le dapsone
+, la taurine
+bromamine
+ semblent avoir un intérêt.
+La microdermabrasion est un traitement physique.
+La vitamine B5 pourrait avoir un certain intérêt
+ de fortes doses de vitamine B5 pouvant améliorer
+l'acné et réduire la taille des pores. Certains produits commerciaux associent la vitamine B5 à la carnitine
+pour stimuler la destruction naturelle de l'excès de sébum par la coenzyme A.
+Des probiotiques peuvent être efficaces
+.
+La prise en charge psychologique reste un aspect important du traitement lorsque les conséquences sur la
+qualité de vie sont notables.
+Au début du xxe siècle, différentes tentatives de vaccination eurent lieu
+.
+D'autres traitements ont été proposés, avec une efficacité souvent douteuse
+  : Aloe vera, pyridoxine,
+kampo (médecine traditionnelle japonaise)… L'essence de Melaleuca alternifolia semble être
+prometteuse
+. Le laser ou les traitements basés sur la lumière peuvent être efficaces à court terme mais
+l'évaluation à moyen et long terme est insuffisante
+.
+Le Dr Jean Seignalet décrit dans son livre des cas de patients ayant adopté le « régime Seignalet » et
+ayant obtenu une rémission complète de l'acné
+. Néanmoins, faute d'études de niveau de preuve
+suffisant (par exemple, une étude prospective et randomisée) l'éventualité d'une efficacité de ce régime
+reste inconnue.
+Pour atténuer les cicatrices déjà existantes  : les crèmes cicatrisantes dans un premier temps, puis les
+crèmes à effet peeling peuvent avoir un intérêt. Le temps permet en général d'améliorer l'aspect des
+cicatrices. Dans le cas de cicatrices importantes, il faudrait envisager des méthodes plus lourdes, comme
+le laser
+.
+53
+Acné chez le nourrisson
+Autres traitements
+54
+55
+56
+23, 57
+58
+59, 60
+Traitements non conventionnels
+61
+62
+63
+64
+65
+66
+67
+Le miel
+, le curcuma
+ sont utilisés, avec une efficacité non démontrée.
+De plus en plus d'études scientifiques
+ s’accordent sur le rôle important de l'alimentation dans la
+diminution des inflammations et, par effet ricochet, de l’acné. En augmentant la quantité de végétaux
+dans son alimentation, on peut réduire l’effet des substances acides, ce qui participe à la réduction des
+inflammations. Les jus de légumes maison
+ sont donc logiquement utilisés comme «  traitement non
+conventionnels » mais leur efficacité n'est pour le moment pas démontrée scientifiquement.
+Un vaccin visant à limiter la réponse du système immunitaire du patient contre la bactérie Cutibacterium
+acnes, et donc l'inflammation, a été testé avec succès sur les souris
+.
+En 2007, une équipe de chercheurs a achevé le séquençage de l'ADN d'un bactériophage de C. acnes, ce
+qui pourrait permettre de mettre au point de nouveaux traitements à base de phagothérapie et d'éviter
+ainsi l'apparition d'antibiorésistances
+.
+En 2017, l'équipe du docteur R. Gallo en Californie s'est intéressé à la microflore commensale de la peau
+humaine, et a montré qu'en favorisant la croissance d'une souche bactérienne bénéfique, tel le
+Staphylococcus epidermis, on observait une réduction du nombre de bactéries du type Cutibacterium
+acnes qui est associé avec un problème d'acné
+.
+1. Dréno B (2010) Données récentes sur l’épidémiologie de l’acné |Recent data on
+epidemiology of acne |Annales de Dermatologie et de Vénéréologie |Volume 137,
+Supplement 2, November 2010, Pages S49-S51 |https://doi.org/10.1016/S0151-
+9638(10)70024-7
+2. Walsh T.R, Efthimiou J & Dréno B (2016) Systematic review of antibiotic resistance in acne:
+an increasing topical and oral threat (http://orca.cf.ac.uk/102767/1/acne.pdf). The Lancet
+Infectious Diseases, 16(3), e23-e33
+3. J. K. L. Tan et K. Bhate, « A global perspective on the epidemiology of acne », The British
+Journal of Dermatology, vol. 172 Suppl 1,‎ juillet 2015, p. 3–12 (ISSN 1365-2133 (https://port
+al.issn.org/resource/issn/1365-2133),
+PMID 25597339 (https://www.ncbi.nlm.nih.gov/pubmed/25597339),
+DOI 10.1111/bjd.13462 (https://dx.doi.org/10.1111/bjd.13462), lire en ligne (https://www.ncbi.
+nlm.nih.gov/pubmed/25597339), consulté le 14 février 2019)
+4. (en) Collier CN, Harper JC, Cafardi JA et al. « The prevalence of acne in adults 20 years and
+older » (http://www.sciencedirect.com/science/article/pii/S019096220701081X) J Am Acad
+Dermatol. 2008;58:56–59
+5. Revuz J (2010) Acné de la femme adulte - Adult acne in women ; Annales de Dermatologie
+et de Vénéréologie| Volume 137, Supplement 2, November 2010, Pages S57-S59|
+https://doi.org/10.1016/S0151-9638(10)70026-0
+6. Voir le site de l'asnm (https://ansm.sante.fr/S-informer/Actualite/Traitement-contre-l-acne-regl
+es-de-bon-usage-de-l-isotretinoine-pour-limiter-les-risques-Point-d-Information).
+66
+67
+Alimentation
+68
+69
+Recherche scientifique récente
+70
+71, 72
+73
+Notes et références
+7. (en) V Bataille, H Snieder, A J MacGregor, P Sasieni, T D Spector « The Influence of
+Genetics and Environmental Factors in the Pathogenesis of Acne: A Twin Study of Acne in
+Women » (http://www.nature.com/jid/journal/v119/n6/abs/5603340a.html) Journal of
+Investigative Dermatology (2002) 119, 1317–1322
+8. (en) Ghodsi SZ, Orawa H, Zouboulis CC « Prevalence, severity, and severity risk factors of
+acne in high school pupils: a community-based study » (http://www.nature.com/jid/journal/v1
+29/n9/full/jid200947a.html) J Invest Dermatol. 2009;129:2136–2141
+9. (en) Stoll S, Shalita AR, Webster GF et al. « The effect of the menstrual cycle on acne » (htt
+p://www.sciencedirect.com/science/article/pii/S019096220123641X) J Am Acad Dermatol.
+2001;45:957–960
+10. (en) Yosipovitch G, Tang M, Dawn AG et al. « Study of psychological stress, sebum
+production and acne vulgaris in adolescents » (http://www.medicaljournals.se/acta/content/?
+doi=10.2340/00015555-0231) Acta Derm Venereol. 2007;87:135–139
+11. (en) Klaz I, Kochba I, Shohat T, Zarka S, Brenner S. « Severe acne vulgaris and tobacco
+smoking in young men » (http://www.nature.com/jid/journal/v126/n8/full/5700326a.html) J
+Invest Dermatol. 2006;126:1749–52
+12. (en) Tucker SB « Occupational tropical acne » Cutis 1983;31:79–81. PMID 6218968
+13. « La pollution atmosphérique aggrave l'acné chez l'adulte, selon une étude (https://reporterr
+e.net/La-pollution-atmospherique-aggrave-l-acne-chez-l-adulte-selon-une-etude) », sur
+Reporterre, 25 juillet 2017.
+14. (en) Williams HC, Dellavalle RP, Garner S. « Acne vulgaris » (http://www.thelancet.com/journ
+als/lancet/article/PIIS0140-6736(11)60321-8/abstract) Lancet 2012;379:361-372
+15. (en) Melnik B, Jansen T, Grabbe S, « Abuse of anabolic-androgenic steroids and
+bodybuilding acne: an underestimated health problem » (http://onlinelibrary.wiley.com/doi/10.
+1111/j.1610-0387.2007.06176.x/abstract) J Dtsch Dermatol Ges. 2007;5:110–117
+16. Site lesechos.fr, article de Paul Molga, "La symbiose, nouvelle arme thérapeutique" (https://
+www.lesechos.fr/2015/03/la-symbiose-nouvelle-arme-therapeutique-245720), consulté le 22
+avril 2020
+17. Bodo C Melnik, « Linking diet to acne metabolomics, inflammation, and comedogenesis: an
+update », Clinical, Cosmetic and Investigational Dermatology, vol. 8,‎ 15 juillet 2015,
+p. 371–388 (ISSN 1178-7015 (https://portal.issn.org/resource/issn/1178-7015),
+PMID 26203267 (https://www.ncbi.nlm.nih.gov/pubmed/26203267),
+PMCID PMC4507494 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4507494),
+DOI 10.2147/CCID.S69135 (https://dx.doi.org/10.2147/CCID.S69135), lire en ligne (https://w
+ww.ncbi.nlm.nih.gov/pmc/articles/PMC4507494/), consulté le 14 février 2019)
+18. (en) Thiboutot DM, Strauss JS. « Diet and acne revisited » (https://jamanetwork.com/journal
+s/jamadermatology/article-abstract/479081) Arch Dermatol. 2002;138:1591–1592
+19. (en) Growing evidence suggests possible link between diet and acne (http://www.aad.org/sto
+ries-and-news/news-releases/growing-evidence-suggests-possible-link-between-diet-and-ac
+ne), www.aad.org
+20. (en) Spencer EH, Ferdowsian HR, Barnard ND, « Diet and acne: a review of the evidence »,
+Int J Dermatol, vol. 48, n  4,‎ 2009, p. 339-47.
+(PMID 19335417 (https://www.ncbi.nlm.nih.gov/pubmed/19335417),
+DOI 
+10.1111/j.1365-4632.2009.04002.x (https://dx.doi.org/10.1111/j.1365-4632.2009.04002.x),
+lire en ligne (http://onlinelibrary.wiley.com/doi/10.1111/j.1365-4632.2009.04002.x/full) [html])
+21. Thais H. Sakuma et Howard I. Maibach, « Oily skin: an overview », Skin Pharmacology and
+Physiology, vol. 25, n  5,‎ 2012, p. 227–235 (ISSN 1660-5535 (https://portal.issn.org/resourc
+e/issn/1660-5535), PMID 22722766 (https://www.ncbi.nlm.nih.gov/pubmed/22722766),
+DOI 10.1159/000338978 (https://dx.doi.org/10.1159/000338978), lire en ligne (https://www.n
+cbi.nlm.nih.gov/pubmed/22722766), consulté le 15 octobre 2019)
+o
+o
+22. Caroline Caperton, Samantha Block, Martha Viera et Jonette Keri, « Double-blind, Placebo-
+controlled Study Assessing the Effect of Chocolate Consumption in Subjects with a History of
+Acne Vulgaris », The Journal of Clinical and Aesthetic Dermatology, vol. 7, n  5,‎ mai 2014,
+p. 19–23 (ISSN 1941-2789 (https://portal.issn.org/resource/issn/1941-2789),
+PMID 24847404 (https://www.ncbi.nlm.nih.gov/pubmed/24847404),
+PMCID 4025515 (https://www.ncbi.nlm.nih.gov/pmc/articles/4025515), lire en ligne (https://p
+ubmed.ncbi.nlm.nih.gov/24847404/), consulté le 20 juin 2020)
+23. (en) Yang M, Moclair B, Hatcher V, Kaminetsky J, Capodice J et al., « A randomized, double-
+blind, placebo-controlled study of a novel pantothenic Acid-based dietary supplement in
+subjects with mild to moderate facial acne », Dermatol Ther (Heidelb), vol. 4, n  1,‎ 2014,
+p. 93-101. (PMID 24831048 (https://www.ncbi.nlm.nih.gov/pubmed/24831048),
+PMCID PMC4065280 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4065280),
+DOI 10.1007/s13555-014-0052-3 (https://dx.doi.org/10.1007/s13555-014-0052-3), lire en
+ligne (https://link.springer.com/article/10.1007/s13555-014-0052-3/fulltext.html) [html])
+24. Lasek RJ, Chren MM (1998). Acne vulgaris and the quality of life of adult dermatology
+patients. Arch Dermatol ; 134:454–458
+25. Hosthota A, Bondade S, Basavaraja V (2016). Impact of acne vulgaris on quality of life and
+self-esteem. Cutis ; 97 : 121 – 124.
+26. (en) Smithard A, Glazebrook C, Williams HC, « Acne prevalence, knowledge about acne and
+psychological morbidity in mid-adolescence: a community-based study » (http://onlinelibrary.
+wiley.com/doi/10.1046/j.1365-2133.2001.04346.x/abstract) Br J Dermatol. 2001;145:274–
+279
+27. ex : allon E, Newton JN, Klassen A, Stewart-Brown SL, Ryan TJ, Finlay AY. The quality of life
+in acne: a comparison with general medical conditions using generic questionnaires. Br J
+Dermatol 1999;140: 672–676
+28. (en) Law MP, Chuh AA, Lee A, Molinari N. « Acne prevalence and beyond :acne disability
+and its predictive factors among Chinese late adolescents in Hong Kong » Clin Exp
+Dermatol. 2010;35:16–21
+29. Chernyshov, P. V., Zouboulis, C. C., Tomas‐Aragones, L., Jemec, G. B., Manolache, L.,
+Tzellos, T.... & Bettoli, V. (2018). Quality of life measurement in acne. Position paper of the
+European Academy of Dermatology and Venereology Task Forces on quality of life and
+patient oriented outcomes and acne, rosacea and hidradenitis suppurativa (https://onlinelibra
+ry.wiley.com/doi/pdf/10.1111/jdv.14585). Journal of the European Academy of Dermatology
+and Venereology, 32(2), 194-208 (plusieurs auteurs ont notifié qu'ils étaient en situations de
+possibles conflits d'intérêts)
+30. groupe de travail de l'Académie européenne de dermatologie et de vénéréologie
+31. Tuchayi, S. M., Makrantonaki, E., Ganceviciene, R., Dessinioti, C., Feldman, S. R., &
+Zouboulis, C. C. (2015) Acne vulgaris (https://www.researchgate.net/profile/Eugenia_Makran
+tonaki/publication/281845863_Acne_Vulgaris/links/577a1fe508ae1b18a7e6ce4a/Acne-Vulga
+ris.pdf). Nature reviews Disease primers, 1, 15029.
+32. Tuchayi, S. M., Alexander, T. M., Nadkarni, A., & Feldman, S. R. (2016). Interventions to
+increase adherence to acne treatment. Patient preference and adherence, 10, 2091.
+33. (en) Gollnick H, Cunliffe W, Berson D et al. « Management of acne: a report from a Global
+Alliance to Improve Outcomes in Acne » (http://www.sciencedirect.com/science/article/pii/S0
+190962203015639) J Am Acad Dermatol. 2003;49:S1–37
+34. (en) Strauss JS, Krowchuck DP, Leyden JJ et al. « Guidelines of care for acne vulgaris
+management » (http://www.sciencedirect.com/science/article/pii/S0190962206023462) J Am
+Acad Dermatol. 2007;56:651–663
+35. Dietary intervention in acne (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3408989/)
+36. (en) Magin P, Pond D, Smith W, Watson A, « A systematic review of the evidence for ‘myths
+and misconceptions’ in acne management: diet, face-washing and sunlight » (http://fampra.o
+xfordjournals.org/content/22/1/62) Fam Pract. 2004;22:62–70
+o
+o
+37. (en) Mills O. H., « Acne detergicans », Archives of dermatology, n  111,‎ 1975, p. 65-68 (lire
+en ligne (http://archderm.jamanetwork.com/article.aspx?articleid=534711))
+38. (en) Ozolins M, Eady E, Avery AJ et al. « Comparison of five antimicrobial regimens for
+treatment of mild to moderate inflammatory facial acne vulgaris in the community:
+randomised controlled trial » (http://www.sciencedirect.com/science/article/pii/S01406736041
+75910) Lancet 2004;364:2188–2195
+39. (en) Hughes BR, Norris JF, Cunliffe WJ, « A double-blind evaluation of topical isotretinoin
+0·05%, benzoyl peroxide gel 5% and placebo in patients with acne » (http://onlinelibrary.wile
+y.com/doi/10.1111/j.1365-2230.1992.tb00196.x/abstract) Clin Exp Dermatol. 1992;17:165–
+168
+40. (en) Fakhouri T, Yentzer BA, Feldman SR. « Advancement in benzoyl peroxide-based acne
+treatment: methods to increase both efficacy and tolerability » J Drugs Dermatol.
+2009;8:657–61. PMID 19588642
+41. « Acné inflammatoire (https://www.soinacne.com/base-connaissances/types/inflammatoire/#
+Traitements_locaux) », sur soinacne.com.
+42. Berson, D.S, Boulinguez, S., « Place des traitements à base de lumière dans l'acné »,
+Annales de Dermatologie et de Vénérologie, 137, 2,‎ 2010, p. S72-S75 (lire en ligne (https://
+www.sciencedirect.com/science/article/abs/pii/S0151963810700314)  [PDF])
+43. Huh, S. Y., Na, J. I., Huh, C. H., & Park, K. C. (2012). The effect of photodynamic therapy
+using indole-3-acetic acid and green light on acne vulgaris (https://synapse.koreamed.org/D
+OIx.php?id=10.5021/ad.2012.24.1.56). Annals of dermatology, 24(1), 56-60.
+44. (en) Kawada A, Aragane Y, Kameyama H, Sangen Y, Tezuka T, « Acne phototherapy with a
+high-intensity, enhanced, narrow-band, blue light source: an open study and in vitro
+investigation », J Dermatol Sci, vol. 30,‎ novembre 2002, p. 129–35 (ISSN 0923-1811 (http
+s://portal.issn.org/resource/issn/0923-1811),
+DOI 
+10.1016/S0923-1811(02)00068-3 (https://dx.doi.org/10.1016/S0923-1811%2802%2900068-3)
+)
+45. (en) Kjeldstad B, « Photoinactivation of Propionibacterium acnes by near-ultraviolet light », Z
+Naturforsch [C], vol. 39,‎ 1984, p. 300–2
+46. (en) Ashkenazi H, Malik Z, Harth Y, Nitzan Y, « Eradication of Propionibacterium acnes by its
+endogenic porphyrins after illumination with high intensity blue light », FEMS Immunol Med
+Microbiol, vol. 35,‎ 2003, p. 17–24
+47. (en) « "New Light Therapy for Acne" (archive) U.S. Food and Drug Administration, FDA
+Consumer (https://web.archive.org/web/20080117143133/http://www.fda.gov/fdac/departs/2
+002/602_upd.html) », 2002 (Original URL (http://www.fda.gov/fdac/departs/2002/602_upd.ht
+ml#acne))
+48. (en) « 510(k) Summary: CureLight's ClearLight Phototherapy Device (http://www.accessdat
+a.fda.gov/cdrh_docs/pdf/k013623.pdf) » [PDF], FDA, Office of Device Regulation, Center for
+Devices and Radiological Health, 2002 (consulté le 30 juillet 2009).
+49. F. Ballanger-Desolneux et B. Dreno, Acné. EMC (Elsevier Masson SAS), Pédiatrie -
+Maladies infectieuses, 4-114-A-10, 2010 (http://www.em-consulte.com/article/260607/)
+Article gratuit. Voir section traitement-traitement physique.
+50. Barbaric J, Abbott R, Posadzki P, Car M, Gunn LH, Layton AM, Majeed A, Car J,
+« L'utilisation de la lumière comme traitement de l'acné (https://www.cochrane.org/fr/CD0079
+17/SKIN_lutilisation-de-la-lumiere-comme-traitement-de-lacne) », sur cochrane.org,
+27 septembre 2016 (consulté le 20 mai 2021).
+51. (en) Simonart T, Dramaix M. « Treatment of acne with topical antibiotics: lessons from
+clinical studies » Br J Dermatol. 2005;153:395–403 PMID 16086756
+52. « Acné et cycle menstruel | Vitaemed (https://www.vitaemed.com/fr/acne/cycle-menstruel) »,
+sur www.vitaemed.com (consulté le 7 mars 2017).
+o
+53. P  Philippe Even, P  Bernard Debré, Guide des 4000 médicaments utiles, inutiles ou
+dangereux, Cherche-midi, 2016, (ISBN 978-2-7491-3378-2), p. 274.
+54. (en) Acne Research and Study Group, « Multicenter randomized comparative double-blind
+controlled clinical trial of the safety and efficacy of zinc gluconate versus minocycline
+hydrochloride in the treatment of inflammatory acne vulgaris - PubMed », Dermatology
+(Basel, Switzerland), vol. 203, n  2,‎ 2001, p. 135–140 (ISSN 1018-8665 (https://portal.issn.or
+g/resource/issn/1018-8665),
+PMID 11586012 (https://www.ncbi.nlm.nih.gov/pubmed/11586012),
+DOI 10.1159/000051728 (https://dx.doi.org/10.1159/000051728), lire en ligne (https://www.n
+cbi.nlm.nih.gov/pubmed/11586012?dopt=Abstract), consulté le 2 août 2020).
+55. (en) Stotland M, Shalita AR, Kissling RF, Dapsone 5% gel: a review of its efficacy and safety
+in the treatment of acne vulgaris (http://adisonline.com/dermatology/pages/articleviewer.asp
+x?year=2009&issue=10040&article=00002&type=abstract), Am J Clin Dermatol,
+2009;10:221–227
+56. (en) Marcinkiewicz J, Wojas-Pelc A, Walczewska M et al. Topical taurine bromamine, a new
+candidate in the treatment of moderate inflammatory acne vulgaris: a pilot study (http://www.j
+le.com/en/revues/medecine/ejd/e-docs/00/04/3E/4D/resume.phtml), Eur J Dermatol,
+2008;18:433–439
+57. (en) Leung L, « Pantothenic acid deficiency as the pathogenesis of acne vulgaris », Med
+Hypotheses, vol. 44, n  6,‎ 1995, p. 490–2
+(PMID 7476595 (https://www.ncbi.nlm.nih.gov/pubmed/7476595),
+DOI 
+10.1016/0306-9877(95)90512-X (https://dx.doi.org/10.1016/0306-9877%2895%2990512-X))
+58. Cristina Eguren, Ariadna Navarro-Blasco, Marina Corral-Forteza et Alejandra Reolid-Pérez,
+« A Randomized Clinical Trial to Evaluate the Efficacy of an Oral Probiotic in Acne Vulgaris »,
+Acta Dermato-Venereologica, vol. 104,‎ 15 mai 2024, adv33206 (ISSN 1651-2057 (https://por
+tal.issn.org/resource/issn/1651-2057),
+PMID 38751177 (https://www.ncbi.nlm.nih.gov/pubmed/38751177),
+DOI 10.2340/actadv.v104.33206 (https://dx.doi.org/10.2340/actadv.v104.33206), lire en ligne
+(https://pubmed.ncbi.nlm.nih.gov/38751177), consulté le 19 mai 2024)
+59. http://www.freepatentsonline.com/4057627.html
+60. (en) Medical Home Remedies: As Recommended by 19th and 20th century Doctors! (http://
+www.doctortreatments.com/Diseases_Of_The_Skin/Class_VIII_Diseases_Of_The_Appenda
+ges_Diseases_Of_The_Sebaceous_Glands_Acne.htm) sur le site
+www.doctortreatments.com
+61. (en) Magin PJ, Adams J, Pond CD, Smith W, « Topical and oral CAM in acne: a review of the
+empirical evidence and a consideration of its context » Complement Ther Med, 2006;14:62–
+76
+62. (en) Enshaieh S, Jooya A, Siadat AH, Iraji F, « The efficacy of 5% topical tea tree oil gel in
+mild to moderate acne vulgaris: a randomized, double-blind placebo-controlled study » (htt
+p://www.ijdvl.com/article.asp?issn=0378-6323;year=2007;volume=73;issue=1;spage=22;epa
+ge=25;aulast=Enshaieh) Indian J Dermatol Venereol Leprol, 2007;73:22–25
+63. (en) Sakamoto FH, Lopes JD, Anderson RR, « Photodynamic therapy for acne vulgaris: a
+critical review from basics to clinical practice: part I. Acne vulgaris: when and why consider
+photodynamic therapy? » (http://www.sciencedirect.com/science/article/pii/S0190962210000
+198) J Am Acad Dermatol, 2010;63:183–193
+64. Seignalet, L'Alimentation ou la 3  médecine, 5  édition refondue et augmentée,
+(ISBN 286839-887-1), page 572.
+65. (en) Tierney EP, Kouba DJ, Hanke CW, « Review of fractional photothermolysis: treatment
+indications and efficacy » (http://onlinelibrary.wiley.com/doi/10.1111/j.1524-4725.2009.0125
+8.x/abstract) Dermatol Surg. 2009;35:1145–1161
+r
+r
+o
+o
+e
+e
+66. « 5 façons de faire un masque au miel pour le visage - J'ai dit oui (http://j-ai-dit-oui.com/mas
+que-au-miel-visage/) », sur J'ai dit oui, 14 octobre 2013 (consulté le 10 juin 2016).
+67. EDISOFT, « 6 Avantages du curcuma pour une peau impeccable : -- Zeinelle magazine (htt
+p://zeinelle.com/index.php?page=article&articleID=427) », sur zeinelle.com (consulté le
+10 juin 2016).
+68. F Fiedler, G Stangl, E Fiedler et K Taube, « Acne and Nutrition: A Systematic Review », Acta
+Dermato Venereologica, vol. 97, n  1,‎ 2017, p. 7–9 (ISSN 0001-5555 (https://portal.issn.org/r
+esource/issn/0001-5555),
+DOI 10.2340/00015555-2450 (https://dx.doi.org/10.2340/00015555-2450), lire en ligne (http
+s://www.medicaljournals.se/acta/content/abstract/10.2340/00015555-2450), consulté le
+5 septembre 2018)
+69. « Jus Anti Acné - Lutter contre l'acné grâce aux Jus maison », OptiMyself,‎ 17 mai 2017 (lire
+en ligne (https://www.optimyself.com/jus-anti-acne/), consulté le 5 septembre 2018)
+70. (en) J. Kim, « Acne vaccines: therapeutic option for the treatment of acne vulgaris? », J
+Invest Dermatol., vol. 128, n  10,‎ 2008, p. 2353-4.
+(PMID 18787542 (https://www.ncbi.nlm.nih.gov/pubmed/18787542),
+DOI 10.1038/jid.2008.221 (https://dx.doi.org/10.1038/jid.2008.221), lire en ligne (http://www.
+nature.com/jid/journal/v128/n10/full/jid2008221a.html))
+71. Mark D. Farrar, Karen M. Howson, Richard A. Bojar et David West, « Genome sequence and
+analysis of a Propionibacterium acnes bacteriophage », Journal of Bacteriology, vol. 189,
+n  11,‎ juin 2007, p. 4161–4167 (ISSN 0021-9193 (https://portal.issn.org/resource/issn/0021-
+9193), PMID 17400737 (https://www.ncbi.nlm.nih.gov/pubmed/17400737),
+PMCID 1913406 (https://www.ncbi.nlm.nih.gov/pmc/articles/1913406),
+DOI 10.1128/JB.00106-07 (https://dx.doi.org/10.1128/JB.00106-07), lire en ligne (https://pub
+med.ncbi.nlm.nih.gov/17400737), consulté le 28 février 2025)
+72. David E. Castillo, Sonali Nanda et Jonette E. Keri, « Propionibacterium (Cutibacterium)
+acnes Bacteriophage Therapy in Acne: Current Evidence and Future Perspectives »,
+Dermatology and Therapy, vol. 9, n  1,‎ mars 2019, p. 19–31 (ISSN 2193-8210 (https://portal.
+issn.org/resource/issn/2193-8210),
+PMID 30539425 (https://www.ncbi.nlm.nih.gov/pubmed/30539425),
+PMCID 6380980 (https://www.ncbi.nlm.nih.gov/pmc/articles/6380980),
+DOI 10.1007/s13555-018-0275-9 (https://dx.doi.org/10.1007/s13555-018-0275-9), lire en
+ligne (https://pubmed.ncbi.nlm.nih.gov/30539425), consulté le 28 février 2025)
+73. (en) The Globe and Mail, Bacteria joins the fight against skin conditions (https://www.theglob
+eandmail.com/life/health-and-fitness/health/bacteria-joins-the-fight-against-skin-conditions/ar
+ticle35475735/), 29 juin 2017.
+Dermatologie
+acné excoriée
+Microbiote de la peau
+o
+o
+o
+o
+Voir aussi
+Article connexe
+Liens externes
+Sur les autres projets Wikimedia :
+Société française de dermatologie
+« Traitement de l'acné par voie orale et générale : Argumentaire scientifique (http://www.sf
+dermato.org/media/pdf/recommandation/label-argumentaire-acne-post-ollege-54ac60356d
+1b9584a71ccaac92cf3724.pdf) » [PDF], sur SFDermato.org, 10 juillet 2015 (consulté le 2017)
+« Traitement de l'acné par voie orale et générale : Texte des recommandations (http://ww
+w.sfdermato.org/media/pdf/recommandation/label-recommandations-acne-post-college-54
+ac60356d1b9584a71ccaac92cf3724.pdf) » [PDF], sur SFDermato.org, 10 juillet 2015
+(consulté le 2017)
+(en) Gollnick H, Cunliffe W, Berson D et al. « Management of acne: a report from a Global
+Alliance to Improve Outcomes in Acne » (http://www.sciencedirect.com/science/article/pii/
+S0190962203015639) J Am Acad Dermatol. 2003;49:S1–37
+(en) Strauss JS, Krowchuck DP, Leyden JJ et al. « Guidelines of care for acne vulgaris
+management » (http://www.sciencedirect.com/science/article/pii/S0190962206023462) J
+Am Acad Dermatol. 2007;56:651–663
+(en) Zaenglein, A. L., Pathy, A. L., Schlosser, B. J., Alikhan, A., Baldwin, H. E., Berson, D.
+S.... & Keri, J. E. (2016). Guidelines of care for the management of acne vulgaris (https://w
+ww.sciencedirect.com/science/article/pii/S0190962215026146). Journal of the American
+Academy of Dermatology, 74(5), 945-973.
+Chernyshov, P. V., Zouboulis, C. C., Tomas‐Aragones, L., Jemec, G. B., Manolache, L.,
+Tzellos, T.... & Bettoli, V. (2018). Quality of life measurement in acne. Position paper of the
+European Academy of Dermatology and Venereology Task Forces on quality of life and
+patient oriented outcomes and acne, rosacea and hidradenitis suppurativa (https://onlineli
+brary.wiley.com/doi/pdf/10.1111/jdv.14585). Journal of the European Academy of
+Dermatology and Venereology, 32(2), 194-208 (plusieurs auteurs ont notifié qu'ils étaient
+en situations de possibles conflits d'intérêts).
+Walsh T.R, Efthimiou J & Dréno B (2016) Systematic review of antibiotic resistance in
+acne: an increasing topical and oral threat (http://orca.cf.ac.uk/102767/1/acne.pdf). The
+Lancet Infectious Diseases, 16(3), e23-e33.
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Acné&oldid=225577741 ».
+l'acné (https://commons.wikimedia.org/wi
+ki/Category:Acne?uselang=fr), sur
+Wikimedia Commons
+Guides de bonnes pratiques médicales
+Bibliographie
