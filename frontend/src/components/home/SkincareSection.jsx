@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import aiIcon from "@/asset/icons/ai.svg";
 import bag from "@/asset/icons/bag.svg";
 import box from "@/asset/icons/box.svg";

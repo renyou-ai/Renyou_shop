@@ -8,10 +8,9 @@ const AuthContext = createContext();
 export function AuthProvider({ children }) {
   const [token, setToken] = useState(localStorage.getItem("token"));
 
-  // ✅ récupérer user depuis token
+  // Decode le token → contient maintenant userId + role
   const getUserFromToken = () => {
     if (!token) return null;
-
     try {
       return jwtDecode(token);
     } catch {
@@ -20,6 +19,8 @@ export function AuthProvider({ children }) {
   };
 
   const user = getUserFromToken();
+  // user.userId → id de l'user
+  // user.role   → "admin" ou "user"  ← nouveau
 
   const loginUser = (data) => {
     localStorage.setItem("token", data.token);
@@ -38,24 +39,18 @@ export function AuthProvider({ children }) {
     setToken(null);
   };
 
+  const isAdmin = user?.role === "admin"; // ← helper pratique
+
   return (
     <AuthContext.Provider
-      value={{
-        token,
-        user,
-        loginUser,
-        registerUser,
-        logoutUser,
-      }}
+      value={{ token, user, isAdmin, loginUser, registerUser, logoutUser }}
     >
       {children}
     </AuthContext.Provider>
   );
 }
 
-AuthProvider.propTypes = {
-  children: PropTypes.node.isRequired,
-};
+AuthProvider.propTypes = { children: PropTypes.node.isRequired };
 
 export function useAuth() {
   return useContext(AuthContext);

@@ -1,40 +1,48 @@
-const User = require("../models/User");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
-const crypto = require("crypto");
+const User      = require("../models/User");
+const bcrypt    = require("bcrypt");
+const jwt       = require("jsonwebtoken");
+const crypto    = require("node:crypto");
 const nodemailer = require("nodemailer");
 
-/* REGISTER */
+// ← Lis les emails admin depuis .env
+// Dans ton .env : ADMIN_EMAILS=yasmine@renyou.com
+const ADMIN_EMAILS = process.env.ADMIN_EMAILS
+  ? process.env.ADMIN_EMAILS.split(",").map(e => e.trim().toLowerCase())
+  : [];
+
+/* ── REGISTER ── */
 const register = async (req, res) => {
   try {
     const { name, email, password } = req.body;
 
     const existingUser = await User.findOne({ email });
-    if (existingUser) {
+    if (existingUser)
       return res.status(400).json({ message: "User already exists" });
-    }
 
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    const newUser = await User.create({
-      name,
-      email,
-      password: hashedPassword,
-    });
+    // ← Auto-assign admin role si email dans la liste secrète
+    const role = ADMIN_EMAILS.includes(email.toLowerCase()) ? "admin" : "user";
 
-    const token = jwt.sign({ id: newUser._id }, process.env.JWT_SECRET || "secretkey", { expiresIn: "7d" });
+    const newUser = await User.create({ name, email, password: hashedPassword, role });
 
+    // ✅ FIX : userId (pas id) pour être cohérent avec authMiddleware
+    const token = jwt.sign(
+      { userId: newUser._id, role: newUser.role },
+      process.env.JWT_SECRET || "secretkey",
+      { expiresIn: "7d" }
+    );
     res.status(201).json({
       message: "User registered successfully",
       token,
-      user: { id: newUser._id, name: newUser.name, email: newUser.email },
+      user: { id: newUser._id, name: newUser.name, email: newUser.email, role: newUser.role },
     });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
 };
 
-/* LOGIN */
+/* ── LOGIN ── */
 const login = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -45,30 +53,35 @@ const login = async (req, res) => {
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) return res.status(400).json({ message: "Invalid credentials" });
 
-    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET || "secretkey", { expiresIn: "7d" });
+    // ✅ FIX : userId + role dans le token
+    const token = jwt.sign(
+      { userId: user._id, role: user.role },
+      process.env.JWT_SECRET || "secretkey",
+      { expiresIn: "7d" }
+    );
 
     res.status(200).json({
       message: "Login successful",
       token,
-      user: { id: user._id, name: user.name, email: user.email },
+      user: { id: user._id, name: user.name, email: user.email, role: user.role },
     });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
 };
 
-/* FORGOT PASSWORD */
+/* ── FORGOT PASSWORD ── */
 const forgotPassword = async (req, res) => {
   try {
     const { email } = req.body;
-
     const user = await User.findOne({ email });
-    if (!user) {
+
+    // Réponse identique même si email inexistant (sécurité)
+    if (!user)
       return res.status(200).json({ message: "Reset link sent if email exists" });
-    }
 
     const token = crypto.randomBytes(32).toString("hex");
-    user.resetToken = token;
+    user.resetToken       = token;
     user.resetTokenExpiry = Date.now() + 1000 * 60 * 60;
     await user.save();
 
@@ -76,19 +89,16 @@ const forgotPassword = async (req, res) => {
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
+      auth: { user: process.env.EMAIL_USER, pass: process.env.EMAIL_PASS },
     });
 
     await transporter.sendMail({
-      from: `"Renyou" <${process.env.EMAIL_USER}>`,
-      to: user.email,
+      from:    `"Renyou" <${process.env.EMAIL_USER}>`,
+      to:      user.email,
       subject: "Reset your password",
       html: `
         <h2>Reset your password</h2>
-        <p>Click the link below to reset your password. It expires in 1 hour.</p>
+        <p>Click the link below. It expires in 1 hour.</p>
         <a href="${resetUrl}">${resetUrl}</a>
       `,
     });
@@ -99,23 +109,22 @@ const forgotPassword = async (req, res) => {
   }
 };
 
-/* RESET PASSWORD */
+/* ── RESET PASSWORD ── */
 const resetPassword = async (req, res) => {
   try {
-    const { token } = req.params;
+    const { token }    = req.params;
     const { password } = req.body;
 
     const user = await User.findOne({
-      resetToken: token,
+      resetToken:       token,
       resetTokenExpiry: { $gt: Date.now() },
     });
 
-    if (!user) {
+    if (!user)
       return res.status(400).json({ message: "Invalid or expired token" });
-    }
 
-    user.password = await bcrypt.hash(password, 10);
-    user.resetToken = undefined;
+    user.password         = await bcrypt.hash(password, 10);
+    user.resetToken       = undefined;
     user.resetTokenExpiry = undefined;
     await user.save();
 
@@ -124,5 +133,108 @@ const resetPassword = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+const updateSkinProfile = async (req, res) => {
+  try {
+    const userId = req.user.userId;
 
-module.exports = { register, login, forgotPassword, resetPassword };
+    const {
+      ageRange,
+      gender,
+      skinType,
+      dehydration,
+      redness,
+      wrinkles,
+      darkSpots,
+    } = req.body;
+
+    const updatedUser = await User.findByIdAndUpdate(
+      userId,
+      {
+        skinProfile: {
+          ageRange,
+          gender,
+          skinType,
+          dehydration,
+          redness,
+          wrinkles,
+          darkSpots,
+          completed: true,
+          completedAt: new Date(),
+        },
+      },
+      { new: true }
+    );
+
+    res.status(200).json({
+      message: "Skin profile updated",
+      skinProfile: updatedUser.skinProfile,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: error.message,
+    });
+  }
+};
+/* ── UPDATE SHIPPING ADDRESS ── */
+const updateShippingAddress = async (req, res) => {
+
+  try {
+
+    const userId = req.user.userId;
+
+    const {
+      fullName,
+      phone,
+      address,
+      city,
+      postalCode,
+      country,
+    } = req.body;
+
+    const updatedUser =
+      await User.findByIdAndUpdate(
+
+        userId,
+
+        {
+          shippingAddress: {
+
+            fullName,
+
+            phone,
+
+            address,
+
+            city,
+
+            postalCode,
+
+            country,
+          },
+        },
+
+        { new: true }
+      );
+
+    res.status(200).json({
+
+      message:
+        "Shipping address updated",
+
+      shippingAddress:
+        updatedUser.shippingAddress,
+    });
+
+  } catch (error) {
+
+    console.error(
+      "❌ updateShippingAddress:",
+      error
+    );
+
+    res.status(500).json({
+      message: error.message,
+    });
+  }
+};
+module.exports = { register, login, forgotPassword, resetPassword, updateSkinProfile, updateShippingAddress };

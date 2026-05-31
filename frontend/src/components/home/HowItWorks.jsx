@@ -2,8 +2,11 @@ import step1 from "@/asset/images/how1.png";
 import step2 from "@/asset/images/how2.png";
 import step3 from "@/asset/images/how3.png";
 import aiIcon from "@/asset/icons/ai.svg";
-
+import SkinDiagnosisModal from "../../components/questionnaire/SkinDiagnosisModal";
+import { useState } from "react";
 export default function HowItWorks() {
+  const [openDiagnosis, setOpenDiagnosis] =
+  useState(false);
   const steps = [
     {
       title: "Diagnose",
@@ -21,14 +24,6 @@ export default function HowItWorks() {
       img: step3,
     },
   ];
-
-  const openAI = () => {
-    window.dispatchEvent(
-      new CustomEvent("open-ai-chat", {
-        detail: { message: "Start my skincare diagnosis" },
-      })
-    );
-  };
 
   return (
     <section className="px-10 py-20 select-none">
@@ -75,7 +70,9 @@ export default function HowItWorks() {
       {/* MAIN CTA */}
       <div className="flex justify-center">
         <button
-          onClick={openAI}
+          onClick={() =>
+          setOpenDiagnosis(true)
+        }
           className="mt-12 flex items-center gap-2 px-8 py-3 rounded-full text-white font-medium shadow-md
           bg-gradient-to-r from-[#34306F] to-[#645CD5] hover:opacity-90 transition"
         >
@@ -83,7 +80,13 @@ export default function HowItWorks() {
           <img src={aiIcon} alt="" className="h-5" />
         </button>
       </div>
-
+      {openDiagnosis && (
+        <SkinDiagnosisModal
+          onClose={() =>
+            setOpenDiagnosis(false)
+          }
+        />
+      )}
     </section>
   );
 }

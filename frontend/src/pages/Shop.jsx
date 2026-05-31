@@ -7,7 +7,6 @@ import ProductGrid from "@/components/product/ProductGrid";
 import Pagination from "@/components/ui/Pagination";
 import Footer from "@/components/layout/Footer";
 import { getProducts } from "../api/products.api";
-
 function Shop() {
 
   const [products, setProducts] = useState([]);
@@ -38,10 +37,12 @@ function Shop() {
 
         /* NEW: pass filters to backend */
         const data = await getProducts({
-          ...filters,
-          search, // 🔥 AJOUT
-          sort,   // 🔥 AJOUT
-        });
+        ...filters,
+        category: filters.category?.join(","),
+        brand: filters.brand?.join(","),
+        search,
+        sort,
+      });
 
         setProducts(data);
 

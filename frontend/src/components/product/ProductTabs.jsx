@@ -47,12 +47,6 @@ function ProductTabs({ product, activeTab, setActiveTab }) {
         </p>
       )}
 
-      {activeTab === "reviews" && (
-        <p className="text-gray-600">
-          ⭐ 4.8 average rating from 124 customers
-        </p>
-      )}
-
     </div>
 
   );

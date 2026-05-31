@@ -1,45 +1,64 @@
 import PropTypes from "prop-types";
 
-function ProductInfo({ product, quantity, setQuantity, onAddToCart }) {
+function ProductInfo({
+  product,
+  quantity,
+  setQuantity,
+  onAddToCart,
+}) {
+
   if (!product) return null;
 
   const {
-    brand = "Clearskin Rx",
+
+    brand = "Brand",
+
     name = "Product",
+
     price = 0,
-    description = "No description available",
+
+    description =
+      "No description available",
+
+    stock = 0,
+
   } = product;
 
+  const isOutOfStock =
+    stock <= 0;
+
   return (
+
     <div>
 
       {/* BRAND */}
       <p className="text-sm text-gray-500 uppercase mb-2">
+
         {brand}
+
       </p>
 
       {/* NAME */}
       <h1 className="text-4xl font-bold text-[#0B1A2B] mb-4">
+
         {name}
+
       </h1>
 
-      {/* RATING */}
-      <div className="flex items-center gap-2 mb-4">
-        <span>⭐⭐⭐⭐⭐</span>
-        <span className="text-gray-500 text-sm">
-          4.8 (124 Reviews)
-        </span>
-      </div>
-
+      
       {/* PRICE */}
       <div className="flex items-center gap-4 mb-4">
 
         <p className="text-3xl font-bold text-[#524E8D]">
+
           ${Number(price).toFixed(2)}
+
         </p>
 
         <p className="line-through text-gray-400">
+
           ${(price * 1.3).toFixed(2)}
+
         </p>
 
       </div>
@@ -47,57 +66,94 @@ function ProductInfo({ product, quantity, setQuantity, onAddToCart }) {
       {/* TAGS */}
       <div className="flex gap-3 mb-6">
 
-        <span className="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm">
-          In Stock
-        </span>
+        {isOutOfStock ? (
 
-        <span className="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-sm">
-          Prescription Required
-        </span>
+          <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm">
+
+            Out of Stock
+
+          </span>
+
+        ) : (
+
+          <span className="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm">
+
+            In Stock
+
+          </span>
+
+        )}
 
       </div>
 
       {/* DESCRIPTION */}
       <p className="text-gray-600 mb-8">
+
         {description}
+
       </p>
 
-      {/* QUANTITY + CART */}
+      {/* ACTIONS */}
       <div className="flex items-center gap-4 mb-8">
 
-        <div className="flex items-center border rounded-lg">
+        {!isOutOfStock && (
 
-          <button
-            className="px-4 py-2 hover:bg-gray-100"
-            onClick={() => setQuantity(Math.max(1, quantity - 1))}
-          >
-            -
-          </button>
+          <div className="flex items-center border rounded-lg">
 
-          <span className="px-4">
-            {quantity}
-          </span>
+            <button
+              className="px-4 py-2 hover:bg-gray-100"
+              onClick={() =>
+                setQuantity(
+                  Math.max(
+                    1,
+                    quantity - 1
+                  )
+                )
+              }
+            >
+              -
+            </button>
 
-          <button
-            className="px-4 py-2 hover:bg-gray-100"
-            onClick={() => setQuantity(quantity + 1)}
-          >
-            +
-          </button>
+            <span className="px-4">
+              {quantity}
+            </span>
 
-        </div>
+            <button
+              className="px-4 py-2 hover:bg-gray-100"
+              onClick={() =>
+                setQuantity(
+                  quantity + 1
+                )
+              }
+            >
+              +
+            </button>
 
-        {/* 🔥 CONNECTED BUTTON */}
+          </div>
+        )}
+
         <button
+
+          disabled={isOutOfStock}
+
           onClick={onAddToCart}
-          className="bg-orange-500 text-white px-8 py-3 rounded-lg hover:opacity-90 transition"
+
+          className={`px-8 py-3 rounded-lg transition text-white ${
+            isOutOfStock
+              ? "bg-gray-300 cursor-not-allowed"
+              : "bg-orange-500 hover:opacity-90"
+          }`}
         >
-          Add to Cart
+
+          {isOutOfStock
+            ? "Out of Stock"
+            : "Add to Cart"}
+
         </button>
 
       </div>
 
-      {/* DELIVERY BOX */}
+      {/* DELIVERY */}
       <div className="bg-white p-6 rounded-lg shadow">
 
         <p className="font-semibold mb-2">
@@ -105,7 +161,7 @@ function ProductInfo({ product, quantity, setQuantity, onAddToCart }) {
         </p>
 
         <p className="text-gray-500 text-sm">
-          Order within 2 hours to get it by tomorrow
+          Fast and secure shipping
         </p>
 
         <hr className="my-4" />
@@ -124,17 +180,18 @@ function ProductInfo({ product, quantity, setQuantity, onAddToCart }) {
   );
 }
 
-/* ✅ PROP VALIDATION */
 ProductInfo.propTypes = {
-  product: PropTypes.shape({
-    brand: PropTypes.string,
-    name: PropTypes.string,
-    price: PropTypes.number,
-    description: PropTypes.string,
-  }),
-  quantity: PropTypes.number.isRequired,
-  setQuantity: PropTypes.func.isRequired,
-  onAddToCart: PropTypes.func.isRequired,
+
+  product: PropTypes.object,
+
+  quantity:
+    PropTypes.number.isRequired,
+
+  setQuantity:
+    PropTypes.func.isRequired,
+
+  onAddToCart:
+    PropTypes.func.isRequired,
 };
 
 export default ProductInfo;

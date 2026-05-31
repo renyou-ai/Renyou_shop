@@ -24,7 +24,7 @@ export const getProductById = async (id) => {
     return data;
   } catch (error) {
     console.error("❌ getProductById error:", error.response?.data || error.message);
-    return null; // important pour éviter crash UI
+    return null; // évite crash UI
   }
 };
 
@@ -65,4 +65,57 @@ export const deleteProduct = async (id) => {
     console.error("❌ deleteProduct error:", error.response?.data || error.message);
     throw error;
   }
+};
+
+/* ======================
+   🔥 UPLOAD SINGLE IMAGE
+====================== */
+export const uploadImage = async (file) => {
+  try {
+    const formData = new FormData();
+    formData.append("image", file);
+
+    const { data } = await axiosInstance.post(
+      "/products/upload",
+      formData,
+      {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      }
+    );
+
+    return data.url;
+
+  } catch (error) {
+    console.error("❌ uploadImage error:", error.response?.data || error.message);
+    throw error;
+  }
+};
+
+/* ======================
+   🔥 UPLOAD MULTIPLE IMAGES
+====================== */
+export const uploadMultipleImages = async (files) => {
+  try {
+    const fileArray = Array.from(files);
+
+    const uploaded = await Promise.all(
+      fileArray.map((file) => uploadImage(file))
+    );
+
+    return uploaded;
+
+  } catch (error) {
+    console.error("❌ uploadMultipleImages error:", error.message);
+    throw error;
+  }
+};
+export const getBestSellers = async () => {
+  const { data } = await axiosInstance.get("/orders/bestsellers");
+  return data;
+};
+export const getFilterCounts = async () => {
+  const { data } = await axiosInstance.get("/products/filter-counts");
+  return data;
 };

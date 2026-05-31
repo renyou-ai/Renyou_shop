@@ -10,7 +10,6 @@ export default {
 
       primary: "#524E8D",
       peach: "#FFCCB9",
-      rating: "#FBBF24",
       header: "#E8E5F4",
 
     }

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ProductCard from "@/components/product/ProductCard";
-import { getProducts } from "@/api/products.api";
+import { getBestSellers } from "@/api/products.api";
 
 export default function BestSeller() {
   const [products, setProducts] = useState([]);
@@ -10,9 +10,9 @@ export default function BestSeller() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const fetchProducts = async () => {
+    const fetchBestSellers = async () => {
       try {
-        const data = await getProducts({ sort: "newest", limit: 4 });
+        const data = await getBestSellers(); // ✅ on utilise ton API propre
         setProducts(data);
       } catch (err) {
         console.error("BestSeller error:", err);
@@ -21,7 +21,7 @@ export default function BestSeller() {
       }
     };
 
-    fetchProducts();
+    fetchBestSellers();
   }, []);
 
   return (
@@ -42,6 +42,10 @@ export default function BestSeller() {
 
       {loading ? (
         <p className="text-center text-gray-500">Loading...</p>
+      ) : products.length === 0 ? (
+        <p className="text-center text-gray-400">
+          No best sellers yet
+        </p>
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {products.map((product) => (

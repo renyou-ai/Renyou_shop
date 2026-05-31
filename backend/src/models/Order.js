@@ -1,31 +1,99 @@
-const mongoose = require("mongoose");
+// backend/src/models/Order.js
 
-const orderSchema = new mongoose.Schema(
-  {
-    user: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
-      required: true,
-    },
+const mongoose =
+  require("mongoose");
 
-    items: [
-      {
-        product: {
-          type: mongoose.Schema.Types.ObjectId,
-          ref: "Product",
-        },
-        qty: Number,
+const orderSchema =
+  new mongoose.Schema(
+    {
+
+      user: {
+        type:
+          mongoose.Schema.Types
+            .ObjectId,
+
+        ref: "User",
+
+        required: true,
       },
-    ],
 
-    totalPrice: Number,
+      items: [
+        {
 
-    status: {
-      type: String,
-      default: "pending", // pending | paid | shipped
+          product: {
+            type:
+              mongoose.Schema
+                .Types.ObjectId,
+
+            ref: "Product",
+          },
+
+          name: String,
+
+          image: String,
+
+          price: Number,
+
+          qty: Number,
+        },
+      ],
+
+      shippingAddress: {
+
+        fullName: String,
+
+        phone: String,
+
+        address: String,
+
+        city: String,
+
+        postalCode: String,
+
+        country: String,
+      },
+
+      paymentMethod: {
+        type: String,
+
+        enum: [
+          "cash",
+          "online",
+        ],
+
+        default: "online",
+      },
+
+      orderStatus: {
+        type: String,
+
+        enum: [
+          "pending",
+          "processing",
+          "shipped",
+          "delivered",
+          "cancelled",
+        ],
+
+        default: "pending",
+      },
+
+      totalPrice: {
+        type: Number,
+        required: true,
+      },
+
+      stripeSessionId:
+        String,
     },
-  },
-  { timestamps: true }
-);
 
-module.exports = mongoose.model("Order", orderSchema);
+    {
+      timestamps: true,
+    }
+  );
+
+module.exports =
+  mongoose.model(
+    "Order",
+    orderSchema
+  ); 

@@ -3,28 +3,27 @@ const router = express.Router();
 
 const orderController = require("../controllers/orderController");
 const authMiddleware = require("../middleware/authMiddleware");
-
+const { getBestSellers } = require("../controllers/orderController");
 /* ======================
    🟢 ORDERS
 ====================== */
-
-// create order (manual fallback)
-router.post("/", authMiddleware, orderController.createOrder);
-
-// get user orders
+router.get("/bestsellers", getBestSellers);
+router.post(
+  "/cash",
+  authMiddleware,
+  orderController.createCashOrder
+);
 router.get("/", authMiddleware, orderController.getMyOrders);
-
-
+router.get("/session", authMiddleware, orderController.getOrderBySession);
 /* ======================
    💳 STRIPE
 ====================== */
 
-// create stripe checkout session
-router.post(
-  "/checkout-session",
-  authMiddleware,
-  orderController.createCheckoutSession
-);
+router.post("/checkout-session", authMiddleware, orderController.createCheckoutSession);
+router.post("/webhook", orderController.stripeWebhook);
+
+/* ======================
+   EXPORT
+====================== */
 
 module.exports = router;
-router.post("/webhook", orderController.stripeWebhook);

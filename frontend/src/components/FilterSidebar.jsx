@@ -1,131 +1,232 @@
+import {
+  useEffect,
+  useState,
+} from "react";
+
 import PropTypes from "prop-types";
 
-function FilterSidebar({ filters, setFilters }) {
+import {
+  getCategories,
+} from "@/api/categories.api";
 
-  const updateFilter = (key, value) => {
+function FilterSidebar({
+  filters,
+  setFilters,
+}) {
+
+  const [categories, setCategories] =
+    useState([]);
+
+  const [loading, setLoading] =
+    useState(true);
+
+  /* =========================
+     FETCH CATEGORIES
+  ========================= */
+  useEffect(() => {
+
+    const fetchCategories =
+      async () => {
+
+        try {
+
+          const data =
+            await getCategories();
+
+          setCategories(
+            Array.isArray(data)
+              ? data
+              : []
+          );
+
+        } catch (err) {
+
+          console.error(
+            "❌ fetchCategories:",
+            err
+          );
+
+          setCategories([]);
+
+        } finally {
+
+          setLoading(false);
+        }
+      };
+
+    fetchCategories();
+
+  }, []);
+
+  /* =========================
+     TOGGLE FILTER
+  ========================= */
+  const toggleFilter = (
+    key,
+    value
+  ) => {
+
+    const current =
+      Array.isArray(filters[key])
+        ? filters[key]
+        : [];
+
+    let updated;
+
+    if (
+      current.includes(value)
+    ) {
+
+      updated =
+        current.filter(
+          (v) => v !== value
+        );
+
+    } else {
+
+      updated = [
+        ...current,
+        value,
+      ];
+    }
+
     setFilters((prev) => ({
       ...prev,
-      [key]: value,
+      [key]: updated,
     }));
   };
 
+  /* =========================
+     RESET FILTERS
+  ========================= */
   const resetFilters = () => {
+
     setFilters({});
   };
 
-  return (
-    <div className="w-64 space-y-10 text-[#0B1A2B]">
+  /* =========================
+     LOADING
+  ========================= */
+  if (loading) {
 
-      {/* RESET */}
-      <button
-        onClick={resetFilters}
-        className="text-sm text-red-500 underline"
+    return (
+
+      <div
+        className="w-72 shrink-0
+                   border-r border-gray-100
+                   pr-8"
       >
-        Clear Filters
-      </button>
+
+        <div className="animate-pulse space-y-5">
+
+          <div className="h-6 w-24 bg-gray-100 rounded" />
+
+          {[...Array(6)].map((_, i) => (
+
+            <div
+              key={i}
+              className="flex items-center gap-3"
+            >
+
+              <div className="w-4 h-4 rounded bg-gray-100" />
+
+              <div className="h-4 w-24 bg-gray-100 rounded" />
+
+            </div>
+
+          ))}
+
+        </div>
+
+      </div>
+    );
+  }
+
+  return (
+
+    <div
+      className="w-72 shrink-0
+                 border-r border-gray-100
+                 pr-8"
+    >
+
+      {/* HEADER */}
+      <div
+        className="flex items-center
+                   justify-between mb-8"
+      >
+
+        <h2 className="text-2xl font-semibold text-[#0B1A2B]">
+          Filters
+        </h2>
+
+        <button
+          onClick={resetFilters}
+          className="text-sm text-red-500 hover:underline"
+        >
+          Clear
+        </button>
+
+      </div>
 
       {/* CATEGORY */}
-      <div>
-        <h3 className="font-semibold mb-4">Category</h3>
+      <div className="mb-10">
 
-        <div className="space-y-2 text-gray-600">
+        <h3 className="font-semibold mb-5 text-[#0B1A2B]">
+          Category
+        </h3>
 
-          {[
-            { label: "Multivitamins", value: "multivitamins" },
-            { label: "Vitamin C", value: "vitamin-c" },
-            { label: "Vitamin D", value: "vitamin-d" },
-            { label: "Minerals", value: "minerals" },
-          ].map((item) => (
-            <button
-              key={item.value}
-              onClick={() => updateFilter("category", item.value)}
-              className={`block text-left hover:text-purple-600 ${
-                filters.category === item.value ? "text-purple-600 font-medium" : ""
-              }`}
-            >
-              {item.label}
-            </button>
-          ))}
+        <div className="space-y-4">
 
-        </div>
-      </div>
+          {categories.length === 0 && (
 
-      {/* BRAND */}
-      <div>
-        <h3 className="font-semibold mb-4">Brand</h3>
+            <p className="text-sm text-gray-400">
+              No categories found
+            </p>
 
-        <div className="space-y-2 text-gray-600">
+          )}
 
-          {[
-            { label: "Centrum", value: "centrum" },
-            { label: "Nature Made", value: "nature-made" },
-            { label: "Solgar", value: "solgar" },
-            { label: "NOW Foods", value: "now-foods" },
-          ].map((item) => (
-            <button
-              key={item.value}
-              onClick={() => updateFilter("brand", item.value)}
-              className={`block text-left hover:text-purple-600 ${
-                filters.brand === item.value ? "text-purple-600 font-medium" : ""
-              }`}
-            >
-              {item.label}
-            </button>
-          ))}
+          {categories.map(
+            (category) => (
 
-        </div>
-      </div>
+              <label
+                key={category._id}
+                className="flex items-center gap-3
+                           cursor-pointer text-gray-700"
+              >
 
-      {/* PRICE */}
-      <div>
-        <h3 className="font-semibold mb-4">Price Range</h3>
+                <input
+                  type="checkbox"
 
-        <input
-          type="number"
-          placeholder="Min price"
-          className="w-full mb-2 border p-2 rounded"
-          onChange={(e) => updateFilter("minPrice", e.target.value)}
-        />
+                  checked={
+                    Array.isArray(
+                      filters.category
+                    ) &&
+                    filters.category.includes(
+                      category.name
+                    )
+                  }
 
-        <input
-          type="range"
-          min="0"
-          max="100"
-          className="w-full"
-          onChange={(e) => updateFilter("maxPrice", e.target.value)}
-        />
+                  onChange={() =>
+                    toggleFilter(
+                      "category",
+                      category.name
+                    )
+                  }
 
-        <div className="flex justify-between text-sm text-gray-500 mt-2">
-          <span>$0</span>
-          <span>$100</span>
-        </div>
-      </div>
+                  className="w-4 h-4 accent-[#524E8D]"
+                />
 
-      {/* RATING */}
-      <div>
-        <h3 className="font-semibold mb-4">Rating</h3>
+                <span className="text-sm">
+                  {category.name}
+                </span>
 
-        <div className="space-y-2 text-yellow-400">
-
-          <button
-            onClick={() => updateFilter("rating", 4)}
-            className={`block text-left ${
-              filters.rating === 4 ? "font-semibold text-yellow-500" : ""
-            }`}
-          >
-            ⭐⭐⭐⭐ & up
-          </button>
-
-          <button
-            onClick={() => updateFilter("rating", 3)}
-            className={`block text-left ${
-              filters.rating === 3 ? "font-semibold text-yellow-500" : ""
-            }`}
-          >
-            ⭐⭐⭐ & up
-          </button>
+              </label>
+            )
+          )}
 
         </div>
+
       </div>
 
     </div>
@@ -133,8 +234,12 @@ function FilterSidebar({ filters, setFilters }) {
 }
 
 FilterSidebar.propTypes = {
-  filters: PropTypes.object.isRequired,
-  setFilters: PropTypes.func.isRequired,
+
+  filters:
+    PropTypes.object.isRequired,
+
+  setFilters:
+    PropTypes.func.isRequired,
 };
 
 export default FilterSidebar;

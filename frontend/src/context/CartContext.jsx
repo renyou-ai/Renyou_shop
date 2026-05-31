@@ -81,10 +81,11 @@ export function CartProvider({ children }) {
     }
   };
 
-  // 🧹 CLEAR CART (🔥 IMPORTANT POUR STRIPE SUCCESS)
-  const clearCart = () => {
-    setCart([]); // frontend instant
-  };
+  // 🧹 CLEAR CART 
+  const clearCart = async () => {
+
+  setCart([]);
+};
 
   return (
     <CartContext.Provider

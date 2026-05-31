@@ -1,15 +1,14 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
 import arrowLeft from "@/asset/icons/arrow-left.svg";
 import arrowRight from "@/asset/icons/arrow-right.svg";
-
 import hero1 from "@/asset/images/hero-bg.jpg";
 import hero2 from "@/asset/images/image2.png";
+import SkinDiagnosisModal from "../../components/questionnaire/SkinDiagnosisModal";
 
 export default function HeroSection() {
   const navigate = useNavigate();
-
+  const [openDiagnosis, setOpenDiagnosis] = useState(false);
   // 🎯 SLIDES DYNAMIQUES
   const slides = [
     {
@@ -24,7 +23,6 @@ export default function HeroSection() {
   ];
 
   const [current, setCurrent] = useState(0);
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
@@ -69,7 +67,7 @@ export default function HeroSection() {
                 <button
                   onClick={() =>
                     slide.cta === "Start diagnosis"
-                      ? window.dispatchEvent(new Event("open-ai-chat"))
+                      ? setOpenDiagnosis(true)
                       : navigate("/shop")
                   }
                   className="w-fit bg-orange-400 hover:bg-orange-500 px-6 py-3 rounded-lg text-white font-medium transition"
@@ -115,7 +113,13 @@ export default function HeroSection() {
         </div>
 
       </div>
-
+      {openDiagnosis && (
+        <SkinDiagnosisModal
+          onClose={() =>
+            setOpenDiagnosis(false)
+          }
+        />
+      )}
     </section>
   );
 }
